@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Resistance Board")
+    (title "Resistor Board")
     (date "01/2022")
     (rev "A")
   )
