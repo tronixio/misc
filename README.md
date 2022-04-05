@@ -2,8 +2,8 @@
 
 ## Schematics.
 
-- [Capacitor Decade.](https://github.com/tronixio/misc/blob/main/Kicad/capacitor/extras/schematic.pdf)
-- [Resistor Decade.](https://github.com/tronixio/misc/blob/main/Kicad/resistor/extras/schematic.pdf)
+- [Capacitor Board.](https://github.com/tronixio/misc/blob/main/Kicad/capacitor/extras/schematic.pdf)
+- [Resistor Board.](https://github.com/tronixio/misc/blob/main/Kicad/resistor/extras/schematic.pdf)
 
 ## CAPACITOR Board Top.
 
