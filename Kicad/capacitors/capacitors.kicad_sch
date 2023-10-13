@@ -2003,7 +2003,7 @@
     (pin "1" (uuid a61ffbcc-f1c4-4a6c-af3d-6a63eab5f35f))
     (pin "2" (uuid c3676f9f-6bc6-4ebb-8878-0a8afd30f53d))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C13") (unit 1)
         )
@@ -2017,7 +2017,7 @@
     (property "Reference" "JP51" (at 203.2 104.14 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 104.14 0)
+    (property "Value" "~" (at 205.74 104.14 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 106.68 0) (do_not_autoplace)
@@ -2032,7 +2032,7 @@
     (pin "1" (uuid c007cbd6-d2d3-4441-9055-1bcd6a8d5864))
     (pin "2" (uuid 4d058ba6-adf3-43e9-9792-5070434cb3c2))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP51") (unit 1)
         )
@@ -2067,7 +2067,7 @@
     (pin "1" (uuid dd10d8b6-b965-45fa-94a6-acc2428cc93f))
     (pin "2" (uuid 9df941fe-3f98-485f-9ff3-c61c0952488d))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C48") (unit 1)
         )
@@ -2081,7 +2081,7 @@
     (property "Reference" "JP31" (at 142.24 83.82 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 83.82 0)
+    (property "Value" "~" (at 144.78 83.82 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 86.36 0) (do_not_autoplace)
@@ -2096,7 +2096,7 @@
     (pin "1" (uuid 827d8303-7305-4cde-927a-41bac7b11e4b))
     (pin "2" (uuid cf994b6e-3d2c-47d7-a8bc-fea68958cddf))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP31") (unit 1)
         )
@@ -2131,7 +2131,7 @@
     (pin "1" (uuid a839b5b2-f2a3-40b4-900d-704a3d1f2a6b))
     (pin "2" (uuid f964594c-a7c1-4c0d-b0d5-299a5c7e2911))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C41") (unit 1)
         )
@@ -2166,7 +2166,7 @@
     (pin "1" (uuid c56afb6d-6c4d-47d3-a98b-f5ab30fb3877))
     (pin "2" (uuid e0edfba8-b91f-4093-a948-40f7afe0b98b))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C63") (unit 1)
         )
@@ -2201,7 +2201,7 @@
     (pin "1" (uuid b3d54411-620a-41ec-acfb-887a4f9026cc))
     (pin "2" (uuid 24a2ecfb-97ce-4dc1-a56b-c0a79b303d54))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C8") (unit 1)
         )
@@ -2215,7 +2215,7 @@
     (property "Reference" "JP40" (at 172.72 83.82 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 83.82 0)
+    (property "Value" "~" (at 175.26 83.82 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 86.36 0) (do_not_autoplace)
@@ -2230,7 +2230,7 @@
     (pin "1" (uuid 896f0fff-32aa-49c1-97e8-6189c37d41b1))
     (pin "2" (uuid c80aa7b0-1638-4f06-92bc-acc2248ced6c))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP40") (unit 1)
         )
@@ -2265,7 +2265,7 @@
     (pin "1" (uuid 481aae06-f992-4524-9d4a-75bfd2b16705))
     (pin "2" (uuid a27354fb-1d47-4d11-a929-28bff81d9627))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C1") (unit 1)
         )
@@ -2300,7 +2300,7 @@
     (pin "1" (uuid 08fd1070-9f8f-4b82-af19-de689ca62202))
     (pin "2" (uuid 79c6fa97-b8e3-477a-8372-a2a26c442330))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C24") (unit 1)
         )
@@ -2327,7 +2327,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP67") (unit 1)
         )
@@ -2362,7 +2362,7 @@
     (pin "1" (uuid 1fe88939-7898-486a-b78e-f00541e17b51))
     (pin "2" (uuid 6a85afa2-7250-40fa-8b9a-decfc4704321))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C51") (unit 1)
         )
@@ -2376,7 +2376,7 @@
     (property "Reference" "JP36" (at 142.24 134.62 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 134.62 0)
+    (property "Value" "~" (at 144.78 134.62 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 137.16 0) (do_not_autoplace)
@@ -2391,7 +2391,7 @@
     (pin "1" (uuid 0cff73b8-bbbd-4416-b799-0ef4412e8573))
     (pin "2" (uuid f1809389-2cc1-4f65-8f93-8044c8d368db))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP36") (unit 1)
         )
@@ -2426,7 +2426,7 @@
     (pin "1" (uuid 883414bb-29e3-406e-ad18-3982f163186d))
     (pin "2" (uuid b05c38bf-0d01-4e90-864f-0420e0f5db2d))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C29") (unit 1)
         )
@@ -2440,7 +2440,7 @@
     (property "Reference" "JP44" (at 172.72 124.46 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 124.46 0)
+    (property "Value" "~" (at 175.26 124.46 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 127 0) (do_not_autoplace)
@@ -2455,7 +2455,7 @@
     (pin "1" (uuid 6892d156-1ed0-4a6a-bf63-a4570b120717))
     (pin "2" (uuid 032e6ab8-7ebd-452e-98fb-7731d1468ef2))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP44") (unit 1)
         )
@@ -2469,7 +2469,7 @@
     (property "Reference" "JP32" (at 142.24 93.98 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 93.98 0)
+    (property "Value" "~" (at 144.78 93.98 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 96.52 0) (do_not_autoplace)
@@ -2484,7 +2484,7 @@
     (pin "1" (uuid 57b77ab5-caa4-4cc7-a9b9-67bad6ed9275))
     (pin "2" (uuid f2301ee6-7e6b-4b15-9763-4777cc6493f4))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP32") (unit 1)
         )
@@ -2519,7 +2519,7 @@
     (pin "1" (uuid a947ef36-0958-4ed3-8444-8d5cd764ca36))
     (pin "2" (uuid e232cbbf-654a-434f-88a9-a0d2ad948e22))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C49") (unit 1)
         )
@@ -2533,7 +2533,7 @@
     (property "Reference" "JP46" (at 203.2 53.34 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 53.34 0)
+    (property "Value" "~" (at 205.74 53.34 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 55.88 0) (do_not_autoplace)
@@ -2548,7 +2548,7 @@
     (pin "1" (uuid eac215ae-7f1c-4ba0-9f6a-42ea4fe267b2))
     (pin "2" (uuid 22b84d1b-8db9-49b0-a4e0-5b078d366e7e))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP46") (unit 1)
         )
@@ -2583,7 +2583,7 @@
     (pin "1" (uuid 91f9f458-6795-4aae-881a-619f7b7f573f))
     (pin "2" (uuid 82116e90-ae79-485c-98c4-a60a9b891d32))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C59") (unit 1)
         )
@@ -2597,7 +2597,7 @@
     (property "Reference" "JP34" (at 142.24 114.3 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 114.3 0)
+    (property "Value" "~" (at 144.78 114.3 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 116.84 0) (do_not_autoplace)
@@ -2612,7 +2612,7 @@
     (pin "1" (uuid a97baf69-24ff-4d0a-aac7-f81c444438d2))
     (pin "2" (uuid c95a2865-c75b-4ab1-bd4c-62c891d1cb2a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP34") (unit 1)
         )
@@ -2626,7 +2626,7 @@
     (property "Reference" "JP20" (at 111.76 63.5 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 63.5 0)
+    (property "Value" "~" (at 114.3 63.5 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 66.04 0) (do_not_autoplace)
@@ -2641,7 +2641,7 @@
     (pin "1" (uuid 6251c6a2-b462-467c-b111-e18d713bbe49))
     (pin "2" (uuid 7c84e411-7dbd-40f4-80a5-b8d00d36766a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP20") (unit 1)
         )
@@ -2655,7 +2655,7 @@
     (property "Reference" "JP38" (at 172.72 63.5 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 63.5 0)
+    (property "Value" "~" (at 175.26 63.5 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 66.04 0) (do_not_autoplace)
@@ -2670,7 +2670,7 @@
     (pin "1" (uuid fcb09762-64a3-4b9f-8516-4a74d973d83f))
     (pin "2" (uuid fa123edd-0f5b-42b5-8706-289b52b00186))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP38") (unit 1)
         )
@@ -2684,7 +2684,7 @@
     (property "Reference" "JP37" (at 172.72 53.34 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 53.34 0)
+    (property "Value" "~" (at 175.26 53.34 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 55.88 0) (do_not_autoplace)
@@ -2699,7 +2699,7 @@
     (pin "1" (uuid dc313b53-fbbc-4981-a6de-a0c9139e1677))
     (pin "2" (uuid a3c0db59-0866-4910-b874-f3113f693da9))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP37") (unit 1)
         )
@@ -2713,7 +2713,7 @@
     (property "Reference" "JP63" (at 233.68 134.62 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 134.62 0)
+    (property "Value" "~" (at 236.22 134.62 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 137.16 0) (do_not_autoplace)
@@ -2728,7 +2728,7 @@
     (pin "1" (uuid 2c0783ee-e339-44a2-b75b-aa6ac6edc434))
     (pin "2" (uuid 8c7433b8-970d-4348-97c5-2d9cd651585a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP63") (unit 1)
         )
@@ -2742,7 +2742,7 @@
     (property "Reference" "JP23" (at 111.76 93.98 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 93.98 0)
+    (property "Value" "~" (at 114.3 93.98 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 96.52 0) (do_not_autoplace)
@@ -2757,7 +2757,7 @@
     (pin "1" (uuid 5e284232-bd49-4173-a882-330ce24dea6b))
     (pin "2" (uuid a3266bab-4df6-4aa3-88cc-82323a5260db))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP23") (unit 1)
         )
@@ -2792,7 +2792,7 @@
     (pin "1" (uuid e99e134d-e7d5-47b7-8156-52116e96ab2f))
     (pin "2" (uuid 6141654d-7453-4467-90f4-0c79a7fe7353))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C45") (unit 1)
         )
@@ -2827,7 +2827,7 @@
     (pin "1" (uuid 2bb10ee5-7d75-4a09-9e6a-29a6a88abec4))
     (pin "2" (uuid 6d280558-894e-45cf-87d8-dddb3747a0b2))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C38") (unit 1)
         )
@@ -2862,7 +2862,7 @@
     (pin "1" (uuid cf82cde6-d886-4e94-858e-ac7a6af86d59))
     (pin "2" (uuid 3247c192-0d20-47d5-b765-e251a96b68dd))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C58") (unit 1)
         )
@@ -2876,7 +2876,7 @@
     (property "Reference" "JP26" (at 111.76 124.46 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 124.46 0)
+    (property "Value" "~" (at 114.3 124.46 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 127 0) (do_not_autoplace)
@@ -2891,7 +2891,7 @@
     (pin "1" (uuid f3b569e8-a9ce-4c50-84b7-a2eda278881b))
     (pin "2" (uuid 29c14108-8354-4f10-b111-110c6f0f77fc))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP26") (unit 1)
         )
@@ -2926,7 +2926,7 @@
     (pin "1" (uuid 3aae86b3-b087-4a55-adcc-52d32f46a2be))
     (pin "2" (uuid 7ee0f538-d19e-4cd2-87ef-b5528646cf6f))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C55") (unit 1)
         )
@@ -2940,7 +2940,7 @@
     (property "Reference" "JP29" (at 142.24 63.5 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 63.5 0)
+    (property "Value" "~" (at 144.78 63.5 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 66.04 0) (do_not_autoplace)
@@ -2955,7 +2955,7 @@
     (pin "1" (uuid aa28f1bb-85dc-44cf-b2ab-e3131176fd8b))
     (pin "2" (uuid 10fe5672-444e-4cc4-bff6-3f88f3d663c6))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP29") (unit 1)
         )
@@ -2990,7 +2990,7 @@
     (pin "1" (uuid 56304c34-ae7e-463d-9797-31415f6323b6))
     (pin "2" (uuid 5d87ffbd-192a-40c7-9a1c-155f74cbaf5e))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C32") (unit 1)
         )
@@ -3004,7 +3004,7 @@
     (property "Reference" "JP45" (at 172.72 134.62 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 134.62 0)
+    (property "Value" "~" (at 175.26 134.62 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 137.16 0) (do_not_autoplace)
@@ -3019,7 +3019,7 @@
     (pin "1" (uuid cf9096b3-5a42-47fd-81c6-2985cbdfb69a))
     (pin "2" (uuid 3b68a488-7318-402c-89dc-2b8c48d5dbfd))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP45") (unit 1)
         )
@@ -3033,7 +3033,7 @@
     (property "Reference" "JP16" (at 81.28 114.3 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 114.3 0)
+    (property "Value" "~" (at 83.82 114.3 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 116.84 0) (do_not_autoplace)
@@ -3048,7 +3048,7 @@
     (pin "1" (uuid cb9e848f-21ee-4c28-be36-103767205ba4))
     (pin "2" (uuid 9277b775-d450-46ba-962d-5a213dffd270))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP16") (unit 1)
         )
@@ -3083,7 +3083,7 @@
     (pin "1" (uuid 2fec76c3-01cd-47be-b858-2250a6b2853b))
     (pin "2" (uuid 2baacfcc-98dd-4ca7-ba15-73e7fadfa36a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C26") (unit 1)
         )
@@ -3097,7 +3097,7 @@
     (property "Reference" "JP62" (at 233.68 124.46 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 124.46 0)
+    (property "Value" "~" (at 236.22 124.46 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 127 0) (do_not_autoplace)
@@ -3112,7 +3112,7 @@
     (pin "1" (uuid e056f7c5-3530-4ca9-8fff-de19e710858f))
     (pin "2" (uuid e117b359-84ce-452b-b538-776d1cc6a49c))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP62") (unit 1)
         )
@@ -3126,7 +3126,7 @@
     (property "Reference" "JP30" (at 142.24 73.66 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 73.66 0)
+    (property "Value" "~" (at 144.78 73.66 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 76.2 0) (do_not_autoplace)
@@ -3141,7 +3141,7 @@
     (pin "1" (uuid 72ff1bd5-2686-4617-8948-b236ae705d13))
     (pin "2" (uuid 276fad8a-37dd-4b64-9510-3edc5be5f934))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP30") (unit 1)
         )
@@ -3176,7 +3176,7 @@
     (pin "1" (uuid 00947472-efbf-4318-aaa1-ae9c1575d268))
     (pin "2" (uuid eaa60ae9-853a-4394-b422-e19ffd54249d))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C14") (unit 1)
         )
@@ -3190,7 +3190,7 @@
     (property "Reference" "JP21" (at 111.76 73.66 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 73.66 0)
+    (property "Value" "~" (at 114.3 73.66 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 76.2 0) (do_not_autoplace)
@@ -3205,7 +3205,7 @@
     (pin "1" (uuid 06486710-4476-4be0-842d-e3cc60092dd8))
     (pin "2" (uuid 451c79b8-ad55-4d30-9b97-c4043cc60043))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP21") (unit 1)
         )
@@ -3219,7 +3219,7 @@
     (property "Reference" "JP28" (at 142.24 53.34 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 53.34 0)
+    (property "Value" "~" (at 144.78 53.34 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 55.88 0) (do_not_autoplace)
@@ -3234,7 +3234,7 @@
     (pin "1" (uuid 11881a03-da3c-42fc-9c62-ce496ddbabf1))
     (pin "2" (uuid 88cc22a9-650d-418c-9260-49feb93235ef))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP28") (unit 1)
         )
@@ -3261,7 +3261,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H1") (unit 1)
         )
@@ -3296,7 +3296,7 @@
     (pin "1" (uuid 8efff400-d8c6-4f95-9c3c-2757fcbf7e32))
     (pin "2" (uuid f0f2e059-8f8d-4851-a9c9-4921afd2ba77))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C35") (unit 1)
         )
@@ -3331,7 +3331,7 @@
     (pin "1" (uuid 72834dde-97fe-4518-aaa2-f45e997c5b1a))
     (pin "2" (uuid e67794e2-8dfe-4aaf-b065-2d320ec57b93))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C3") (unit 1)
         )
@@ -3366,7 +3366,7 @@
     (pin "1" (uuid abe52372-6bed-40ac-971d-cfef9adf6418))
     (pin "2" (uuid dea160bd-b78a-4a73-a9b1-81416146d117))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C6") (unit 1)
         )
@@ -3393,7 +3393,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP65") (unit 1)
         )
@@ -3428,7 +3428,7 @@
     (pin "1" (uuid a28bb532-5576-49b9-b10f-0dfe92401125))
     (pin "2" (uuid 89c7be91-08f8-43d6-8438-c2b286c0c2fc))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C60") (unit 1)
         )
@@ -3442,7 +3442,7 @@
     (property "Reference" "JP52" (at 203.2 114.3 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 114.3 0)
+    (property "Value" "~" (at 205.74 114.3 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 116.84 0) (do_not_autoplace)
@@ -3457,7 +3457,7 @@
     (pin "1" (uuid 4986fde9-ee34-48d0-b716-d4e17be70983))
     (pin "2" (uuid 28cd8b2b-ba61-4b1a-9f83-ad6adaaa8758))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP52") (unit 1)
         )
@@ -3484,7 +3484,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP64") (unit 1)
         )
@@ -3519,7 +3519,7 @@
     (pin "1" (uuid 0b6f8180-7f32-4fd8-9bc7-39111f672376))
     (pin "2" (uuid 5a20c61d-83f1-474f-8dbc-934d315f5a30))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C42") (unit 1)
         )
@@ -3554,7 +3554,7 @@
     (pin "1" (uuid d05cf6d2-cf53-48bc-a1f5-5178440402cf))
     (pin "2" (uuid 7489ba94-248b-4e9f-90e5-1facdc384280))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C40") (unit 1)
         )
@@ -3589,7 +3589,7 @@
     (pin "1" (uuid ea522db4-ab18-4890-b5f6-889888d1ba62))
     (pin "2" (uuid a362be3c-5cb9-4d69-a767-4e394e01b43b))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C44") (unit 1)
         )
@@ -3603,7 +3603,7 @@
     (property "Reference" "JP5" (at 50.8 93.98 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 93.98 0)
+    (property "Value" "~" (at 53.34 93.98 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 96.52 0) (do_not_autoplace)
@@ -3618,7 +3618,7 @@
     (pin "1" (uuid 1d1e7ee2-1922-465d-98c4-15a1f9ccba01))
     (pin "2" (uuid 04bde752-345c-4b5c-bc64-5b8f73f7288a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP5") (unit 1)
         )
@@ -3632,7 +3632,7 @@
     (property "Reference" "JP39" (at 172.72 73.66 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 73.66 0)
+    (property "Value" "~" (at 175.26 73.66 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 76.2 0) (do_not_autoplace)
@@ -3647,7 +3647,7 @@
     (pin "1" (uuid fb4bcfb9-87f4-422a-a474-c9874362c4d6))
     (pin "2" (uuid 1cba8acc-af1f-4df5-b405-b5eeea5c2326))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP39") (unit 1)
         )
@@ -3661,7 +3661,7 @@
     (property "Reference" "JP2" (at 50.8 63.5 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 63.5 0)
+    (property "Value" "~" (at 53.34 63.5 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 66.04 0) (do_not_autoplace)
@@ -3676,7 +3676,7 @@
     (pin "1" (uuid 53b312ec-4b7f-4daa-a15c-58bd94b1029e))
     (pin "2" (uuid 1407ef5e-84a8-4c28-baf6-fc8beeafc1a3))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP2") (unit 1)
         )
@@ -3711,7 +3711,7 @@
     (pin "1" (uuid 6fb274b7-bf19-4176-bd86-2280f9162741))
     (pin "2" (uuid 7ae14f37-9583-4240-8833-4fc223d0f811))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C15") (unit 1)
         )
@@ -3725,7 +3725,7 @@
     (property "Reference" "JP4" (at 50.8 83.82 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 83.82 0)
+    (property "Value" "~" (at 53.34 83.82 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 86.36 0) (do_not_autoplace)
@@ -3740,7 +3740,7 @@
     (pin "1" (uuid 2a3430d9-ff7d-4b0e-946e-8b6efc50c14c))
     (pin "2" (uuid ef1301a3-2019-4938-b7b3-681e298ca6bc))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP4") (unit 1)
         )
@@ -3775,7 +3775,7 @@
     (pin "1" (uuid 000e8ba2-efd5-43f5-94d2-c7ea7bce8f77))
     (pin "2" (uuid 95fa3066-03b1-40b1-bfdc-37afe2853d74))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C18") (unit 1)
         )
@@ -3802,7 +3802,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP70") (unit 1)
         )
@@ -3837,7 +3837,7 @@
     (pin "1" (uuid 538bde06-209b-4544-a222-8f5f4d374fa1))
     (pin "2" (uuid 6b151497-50ef-4cd5-8733-43bfdba072ce))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C25") (unit 1)
         )
@@ -3872,7 +3872,7 @@
     (pin "1" (uuid 62bd7888-fc18-410b-a0e6-39e79954c0e6))
     (pin "2" (uuid 5844058b-f606-4778-835e-c5a60b7dc335))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C30") (unit 1)
         )
@@ -3907,7 +3907,7 @@
     (pin "1" (uuid 814d34ad-b5ab-4dce-9ef1-c0d5ff12d17c))
     (pin "2" (uuid 820facc6-dd9f-4dd7-a7ae-d2f05904032e))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C46") (unit 1)
         )
@@ -3921,7 +3921,7 @@
     (property "Reference" "JP27" (at 111.76 134.62 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 134.62 0)
+    (property "Value" "~" (at 114.3 134.62 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 137.16 0) (do_not_autoplace)
@@ -3936,7 +3936,7 @@
     (pin "1" (uuid 62a856af-3941-4a9d-b891-cb577b5e1ca0))
     (pin "2" (uuid fc22d851-0560-42be-8e59-f3aa5c7477b8))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP27") (unit 1)
         )
@@ -3950,7 +3950,7 @@
     (property "Reference" "JP59" (at 233.68 93.98 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 93.98 0)
+    (property "Value" "~" (at 236.22 93.98 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 96.52 0) (do_not_autoplace)
@@ -3965,7 +3965,7 @@
     (pin "1" (uuid 0b8d2320-5110-428f-ab46-0f33f06451bb))
     (pin "2" (uuid 9e9b7298-7c73-45c6-98e3-36a606ead4c5))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP59") (unit 1)
         )
@@ -3994,7 +3994,7 @@
     (pin "1" (uuid 913e55fa-5fa0-47c9-8d2e-d033be8ee162))
     (pin "2" (uuid d4e73b4a-704f-422b-8c04-255644f71065))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "K1") (unit 1)
         )
@@ -4029,7 +4029,7 @@
     (pin "1" (uuid ac05300a-dd7f-4722-a14f-faa339baa47f))
     (pin "2" (uuid 82b1ed1f-0963-4f1f-9cb8-d1a25dddb577))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C27") (unit 1)
         )
@@ -4043,7 +4043,7 @@
     (property "Reference" "JP14" (at 81.28 93.98 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 93.98 0)
+    (property "Value" "~" (at 83.82 93.98 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 96.52 0) (do_not_autoplace)
@@ -4058,7 +4058,7 @@
     (pin "1" (uuid a39ced0e-16c8-434b-8afa-7a028a8f1799))
     (pin "2" (uuid 6ee6fb3b-2a6f-4c6c-9be2-3d59624030e5))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP14") (unit 1)
         )
@@ -4072,7 +4072,7 @@
     (property "Reference" "JP11" (at 81.28 63.5 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 63.5 0)
+    (property "Value" "~" (at 83.82 63.5 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 66.04 0) (do_not_autoplace)
@@ -4087,7 +4087,7 @@
     (pin "1" (uuid 942c1a50-86ea-4395-9fa2-ace1445e5c90))
     (pin "2" (uuid cc16ec17-e2c7-4e98-b780-b7a5e7919ba8))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP11") (unit 1)
         )
@@ -4101,7 +4101,7 @@
     (property "Reference" "JP42" (at 172.72 104.14 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 104.14 0)
+    (property "Value" "~" (at 175.26 104.14 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 106.68 0) (do_not_autoplace)
@@ -4116,7 +4116,7 @@
     (pin "1" (uuid 35485221-e8ec-431f-a574-afccdbe2f7c7))
     (pin "2" (uuid 909cab8f-abe0-4802-84a1-7318d01eafbf))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP42") (unit 1)
         )
@@ -4130,7 +4130,7 @@
     (property "Reference" "JP54" (at 203.2 134.62 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 134.62 0)
+    (property "Value" "~" (at 205.74 134.62 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 137.16 0) (do_not_autoplace)
@@ -4145,7 +4145,7 @@
     (pin "1" (uuid dc78f21e-55b1-49cc-ae13-2fae59039de3))
     (pin "2" (uuid 083e8e99-92a5-44e6-9f3c-799004cabe17))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP54") (unit 1)
         )
@@ -4180,7 +4180,7 @@
     (pin "1" (uuid 7d6ec7f8-6e55-44a1-a5bf-49eab2eec418))
     (pin "2" (uuid 7b6ae851-8369-40d1-91ee-c606779cedb3))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C21") (unit 1)
         )
@@ -4194,7 +4194,7 @@
     (property "Reference" "JP35" (at 142.24 124.46 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 124.46 0)
+    (property "Value" "~" (at 144.78 124.46 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 127 0) (do_not_autoplace)
@@ -4209,7 +4209,7 @@
     (pin "1" (uuid 52a3fa17-29dc-489e-9bf0-10049a964052))
     (pin "2" (uuid 100bc20f-3eda-4ce7-a3a1-eca907416ebc))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP35") (unit 1)
         )
@@ -4244,7 +4244,7 @@
     (pin "1" (uuid 7d0fa8f0-9fef-46b4-a966-135ac728c94e))
     (pin "2" (uuid c4b5bc04-6bfb-4f79-a48c-5a3564b7eb7c))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C39") (unit 1)
         )
@@ -4258,7 +4258,7 @@
     (property "Reference" "JP1" (at 50.8 53.34 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 53.34 0)
+    (property "Value" "~" (at 53.34 53.34 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 55.88 0) (do_not_autoplace)
@@ -4273,7 +4273,7 @@
     (pin "1" (uuid 96841807-0dce-4fd3-94a9-68860b2acac3))
     (pin "2" (uuid a1d6d67a-53ba-4724-92c5-d69ca81b2434))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP1") (unit 1)
         )
@@ -4308,7 +4308,7 @@
     (pin "1" (uuid 962ab1c6-b2e5-4ac3-84b5-c1989676b4f3))
     (pin "2" (uuid a8966d63-fc49-444c-898a-e6a6a5eae66b))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C16") (unit 1)
         )
@@ -4335,7 +4335,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H4") (unit 1)
         )
@@ -4349,7 +4349,7 @@
     (property "Reference" "JP24" (at 111.76 104.14 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 104.14 0)
+    (property "Value" "~" (at 114.3 104.14 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 106.68 0) (do_not_autoplace)
@@ -4364,7 +4364,7 @@
     (pin "1" (uuid 6f0c0b9e-ae38-42e9-9e9b-3eeccc643e4f))
     (pin "2" (uuid 5d23ab19-5a38-461c-a218-8e74713881f2))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP24") (unit 1)
         )
@@ -4378,7 +4378,7 @@
     (property "Reference" "JP49" (at 203.2 83.82 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 83.82 0)
+    (property "Value" "~" (at 205.74 83.82 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 86.36 0) (do_not_autoplace)
@@ -4393,7 +4393,7 @@
     (pin "1" (uuid 1255bec2-7332-4e1f-9eae-4f708a6715fe))
     (pin "2" (uuid 0ba8953e-f149-4716-82b9-f1dabbe30443))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP49") (unit 1)
         )
@@ -4420,7 +4420,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H3") (unit 1)
         )
@@ -4434,7 +4434,7 @@
     (property "Reference" "JP9" (at 50.8 134.62 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 134.62 0)
+    (property "Value" "~" (at 53.34 134.62 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 137.16 0) (do_not_autoplace)
@@ -4449,7 +4449,7 @@
     (pin "1" (uuid 2208175e-80b7-4ee3-a9f0-900dc5aec666))
     (pin "2" (uuid 42ef3196-dca4-4128-97d5-9b0bd1465264))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP9") (unit 1)
         )
@@ -4484,7 +4484,7 @@
     (pin "1" (uuid 1e7ce422-1c57-4a7e-b0cb-bc1b1459ae38))
     (pin "2" (uuid 76fe801a-f7a2-44ad-8eb2-6f5cd5f15de4))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C9") (unit 1)
         )
@@ -4511,7 +4511,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP66") (unit 1)
         )
@@ -4546,7 +4546,7 @@
     (pin "1" (uuid 47738c8d-5bb9-4121-939c-8f0073dbc409))
     (pin "2" (uuid a85fc125-6b11-4101-9037-b3be82ea763a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C11") (unit 1)
         )
@@ -4560,7 +4560,7 @@
     (property "Reference" "JP19" (at 111.76 53.34 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 53.34 0)
+    (property "Value" "~" (at 114.3 53.34 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 55.88 0) (do_not_autoplace)
@@ -4575,7 +4575,7 @@
     (pin "1" (uuid f13f1c8d-d08a-45d7-8f66-f1406a8dba1a))
     (pin "2" (uuid 870c32ca-3f53-49e6-a894-5bd7c769aed3))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP19") (unit 1)
         )
@@ -4610,7 +4610,7 @@
     (pin "1" (uuid a04e781d-fd1f-448c-b7de-651f8009b09e))
     (pin "2" (uuid 3099de7a-9ded-439d-94b9-ac2348dff9e2))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C43") (unit 1)
         )
@@ -4645,7 +4645,7 @@
     (pin "1" (uuid d74342dd-868e-4b2e-a124-1fc7dd9ee725))
     (pin "2" (uuid 23763a34-d7bd-40d8-9d5f-1496e26cde42))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C50") (unit 1)
         )
@@ -4659,7 +4659,7 @@
     (property "Reference" "JP55" (at 233.68 53.34 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 53.34 0)
+    (property "Value" "~" (at 236.22 53.34 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 55.88 0) (do_not_autoplace)
@@ -4674,7 +4674,7 @@
     (pin "1" (uuid c5949abf-d4b9-4631-b87d-27adc85fd7e4))
     (pin "2" (uuid 60fca76b-a62c-49ec-8a80-6b1ca8df85db))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP55") (unit 1)
         )
@@ -4709,7 +4709,7 @@
     (pin "1" (uuid 0cab2a60-9f11-4e2b-97d4-bba6399ef470))
     (pin "2" (uuid 9794e234-fbce-4993-bf24-98c62ad0d4e6))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C23") (unit 1)
         )
@@ -4723,7 +4723,7 @@
     (property "Reference" "JP13" (at 81.28 83.82 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 83.82 0)
+    (property "Value" "~" (at 83.82 83.82 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 86.36 0) (do_not_autoplace)
@@ -4738,7 +4738,7 @@
     (pin "1" (uuid 178a41c9-9856-44fe-b990-ac23aa096409))
     (pin "2" (uuid 40da076d-c29f-4308-b8b6-b17254015518))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP13") (unit 1)
         )
@@ -4752,7 +4752,7 @@
     (property "Reference" "JP33" (at 142.24 104.14 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 144.78 104.14 0)
+    (property "Value" "~" (at 144.78 104.14 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 154.94 106.68 0) (do_not_autoplace)
@@ -4767,7 +4767,7 @@
     (pin "1" (uuid 71eea4f2-e344-4291-a35e-9cb0f968f161))
     (pin "2" (uuid 27c815f8-509f-4a1d-a506-abf0223015f8))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP33") (unit 1)
         )
@@ -4802,7 +4802,7 @@
     (pin "1" (uuid 1cdf9c40-21a3-4c39-8ab2-d11a3039fb84))
     (pin "2" (uuid 6c4f795c-a8e9-42b3-af7e-e05394f2e6d0))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C4") (unit 1)
         )
@@ -4816,7 +4816,7 @@
     (property "Reference" "JP6" (at 50.8 104.14 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 104.14 0)
+    (property "Value" "~" (at 53.34 104.14 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 106.68 0) (do_not_autoplace)
@@ -4831,7 +4831,7 @@
     (pin "1" (uuid f79f9d6a-ee61-45a8-81f5-cac47ca8f6cf))
     (pin "2" (uuid 39511911-683c-48dc-9f08-068d0dad6f2c))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP6") (unit 1)
         )
@@ -4866,7 +4866,7 @@
     (pin "1" (uuid 3d817df9-93de-4503-b5ce-eecc10432a28))
     (pin "2" (uuid 166ed33b-44e2-4c7f-9dc6-3d73709b9067))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C31") (unit 1)
         )
@@ -4901,7 +4901,7 @@
     (pin "1" (uuid 0ac4eb6d-8fe5-4c29-a83c-13efda9fe703))
     (pin "2" (uuid e18324c4-5081-4972-a0ad-c40976e3ff54))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C5") (unit 1)
         )
@@ -4936,7 +4936,7 @@
     (pin "1" (uuid e9e5d729-3205-4f6c-9275-e61a017b8333))
     (pin "2" (uuid 5f945db5-e4db-4b49-8850-dec54fc5446a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C37") (unit 1)
         )
@@ -4971,7 +4971,7 @@
     (pin "1" (uuid 757b5ea8-a5f8-4f08-aeff-76728aebca17))
     (pin "2" (uuid fc46ad25-d35f-4b59-8265-850262cc1ddb))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C33") (unit 1)
         )
@@ -4985,7 +4985,7 @@
     (property "Reference" "JP43" (at 172.72 114.3 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 114.3 0)
+    (property "Value" "~" (at 175.26 114.3 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 116.84 0) (do_not_autoplace)
@@ -5000,7 +5000,7 @@
     (pin "1" (uuid 44c7e757-bf12-4141-bbc7-d714ddd2ab9b))
     (pin "2" (uuid 4b734264-8284-42c2-b175-be3121634288))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP43") (unit 1)
         )
@@ -5035,7 +5035,7 @@
     (pin "1" (uuid 59f2a11e-5406-477a-a834-b94aa9de5191))
     (pin "2" (uuid 78cc5b7b-a40c-49d0-8229-0165e7954a62))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C61") (unit 1)
         )
@@ -5049,7 +5049,7 @@
     (property "Reference" "JP15" (at 81.28 104.14 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 104.14 0)
+    (property "Value" "~" (at 83.82 104.14 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 106.68 0) (do_not_autoplace)
@@ -5064,7 +5064,7 @@
     (pin "1" (uuid 906df7a4-7416-4595-804d-0f70b7d1e34d))
     (pin "2" (uuid af6e2beb-251c-4709-8229-1d3b43380157))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP15") (unit 1)
         )
@@ -5099,7 +5099,7 @@
     (pin "1" (uuid c10a8d77-0a1b-4e89-9552-0ffdf574c953))
     (pin "2" (uuid ab98b83d-98b7-4bc3-93bb-001de9d38c74))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C54") (unit 1)
         )
@@ -5126,7 +5126,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP71") (unit 1)
         )
@@ -5153,7 +5153,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP72") (unit 1)
         )
@@ -5188,7 +5188,7 @@
     (pin "1" (uuid bff4a57f-88a1-48f1-8353-a29d534b6aaf))
     (pin "2" (uuid bb4c6975-e8aa-474f-8906-8bf1f51bbb23))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C36") (unit 1)
         )
@@ -5202,7 +5202,7 @@
     (property "Reference" "JP3" (at 50.8 73.66 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 73.66 0)
+    (property "Value" "~" (at 53.34 73.66 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 76.2 0) (do_not_autoplace)
@@ -5217,7 +5217,7 @@
     (pin "1" (uuid 5d6990bd-8b15-4f19-8705-947cf239a7f8))
     (pin "2" (uuid 4784d159-274b-442f-95f2-9f88f7561ce7))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP3") (unit 1)
         )
@@ -5231,7 +5231,7 @@
     (property "Reference" "JP57" (at 233.68 73.66 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 73.66 0)
+    (property "Value" "~" (at 236.22 73.66 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 76.2 0) (do_not_autoplace)
@@ -5246,7 +5246,7 @@
     (pin "1" (uuid 60689e1a-60c8-4159-b837-4041f135d783))
     (pin "2" (uuid 97626ca9-47c2-4821-b3d0-dc081b4b5c6c))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP57") (unit 1)
         )
@@ -5260,7 +5260,7 @@
     (property "Reference" "JP10" (at 81.28 53.34 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 53.34 0)
+    (property "Value" "~" (at 83.82 53.34 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 55.88 0) (do_not_autoplace)
@@ -5275,7 +5275,7 @@
     (pin "1" (uuid 4b19441e-2294-44d2-af19-c5b4af4582f4))
     (pin "2" (uuid 4fe9eff4-10a9-4466-b388-e6c92ba9a291))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP10") (unit 1)
         )
@@ -5289,7 +5289,7 @@
     (property "Reference" "JP58" (at 233.68 83.82 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 83.82 0)
+    (property "Value" "~" (at 236.22 83.82 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 86.36 0) (do_not_autoplace)
@@ -5304,7 +5304,7 @@
     (pin "1" (uuid 73a07c7f-3cc6-4b96-a17d-0557f4f0c78e))
     (pin "2" (uuid ca2444c0-ae74-4d40-88be-2579aac4a800))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP58") (unit 1)
         )
@@ -5339,7 +5339,7 @@
     (pin "1" (uuid 4924e056-7dd4-4b71-98f5-daa462f35eac))
     (pin "2" (uuid f9d5d0fc-9c1b-4c6a-ab87-d4df31319a32))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C34") (unit 1)
         )
@@ -5366,7 +5366,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H2") (unit 1)
         )
@@ -5380,7 +5380,7 @@
     (property "Reference" "JP47" (at 203.2 63.5 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 63.5 0)
+    (property "Value" "~" (at 205.74 63.5 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 66.04 0) (do_not_autoplace)
@@ -5395,7 +5395,7 @@
     (pin "1" (uuid 78f4381f-4666-4845-800a-94e600acc8db))
     (pin "2" (uuid 34ec7d6a-de1a-4209-9790-739ecc4b58c8))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP47") (unit 1)
         )
@@ -5409,7 +5409,7 @@
     (property "Reference" "JP53" (at 203.2 124.46 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 124.46 0)
+    (property "Value" "~" (at 205.74 124.46 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 127 0) (do_not_autoplace)
@@ -5424,7 +5424,7 @@
     (pin "1" (uuid da2de3d0-25b5-48a0-aeef-f7a9b293f037))
     (pin "2" (uuid 9a261a64-8544-4c22-873b-6169d571c065))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP53") (unit 1)
         )
@@ -5459,7 +5459,7 @@
     (pin "1" (uuid d5e782cb-6b63-4299-a638-62f51584cc5c))
     (pin "2" (uuid 1ea3242d-9b65-428f-bcea-2f6ce012bf1c))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C28") (unit 1)
         )
@@ -5494,7 +5494,7 @@
     (pin "1" (uuid e3b4c335-dcb0-4b97-9e30-bc000ac33ff3))
     (pin "2" (uuid 768c9386-afef-412c-a600-ffc550495601))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C19") (unit 1)
         )
@@ -5521,7 +5521,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP69") (unit 1)
         )
@@ -5535,7 +5535,7 @@
     (property "Reference" "JP60" (at 233.68 104.14 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 104.14 0)
+    (property "Value" "~" (at 236.22 104.14 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 106.68 0) (do_not_autoplace)
@@ -5550,7 +5550,7 @@
     (pin "1" (uuid eac5cd3a-0c7c-4130-9dde-f295ddce0df6))
     (pin "2" (uuid c948ba57-5092-422d-a51c-61deeeb13df2))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP60") (unit 1)
         )
@@ -5564,7 +5564,7 @@
     (property "Reference" "JP18" (at 81.28 134.62 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 134.62 0)
+    (property "Value" "~" (at 83.82 134.62 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 137.16 0) (do_not_autoplace)
@@ -5579,7 +5579,7 @@
     (pin "1" (uuid 373cd39e-5d59-4d3f-936f-21885ae02543))
     (pin "2" (uuid 3b615699-6658-4949-baa7-d3d42d674165))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP18") (unit 1)
         )
@@ -5606,7 +5606,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP73") (unit 1)
         )
@@ -5641,7 +5641,7 @@
     (pin "1" (uuid a37c20a2-9c17-4cdc-8eef-f3dad8e9a4df))
     (pin "2" (uuid e7f7cb93-0b40-44f1-b477-14a1f3d80d79))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C20") (unit 1)
         )
@@ -5676,7 +5676,7 @@
     (pin "1" (uuid 454b9eee-d21b-4b16-b4ae-f1e11970acf9))
     (pin "2" (uuid e540c507-02c7-46e9-afd8-f11c76cb5a9b))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C7") (unit 1)
         )
@@ -5711,7 +5711,7 @@
     (pin "1" (uuid 322f7cfd-49a7-407b-8300-6f7ff48a5481))
     (pin "2" (uuid 846ad16e-a775-493a-8543-09b0e706caa4))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C53") (unit 1)
         )
@@ -5725,7 +5725,7 @@
     (property "Reference" "JP17" (at 81.28 124.46 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 124.46 0)
+    (property "Value" "~" (at 83.82 124.46 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 127 0) (do_not_autoplace)
@@ -5740,7 +5740,7 @@
     (pin "1" (uuid c2296b4a-f530-4f6c-acce-d938291ca420))
     (pin "2" (uuid 1f3860cb-0a3d-40a2-996f-7b6a8185262f))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP17") (unit 1)
         )
@@ -5754,7 +5754,7 @@
     (property "Reference" "JP61" (at 233.68 114.3 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 114.3 0)
+    (property "Value" "~" (at 236.22 114.3 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 116.84 0) (do_not_autoplace)
@@ -5769,7 +5769,7 @@
     (pin "1" (uuid d59ffc23-0e2b-47d1-b349-88aec83d2425))
     (pin "2" (uuid c47a735b-5c08-4765-8202-ed10ed136ab0))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP61") (unit 1)
         )
@@ -5804,7 +5804,7 @@
     (pin "1" (uuid 4fc3fb5d-5105-4a34-b1fc-b8a24c97f59f))
     (pin "2" (uuid 5d0348cf-1aab-4cb8-a6fb-dd5e192cffd4))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C57") (unit 1)
         )
@@ -5839,7 +5839,7 @@
     (pin "1" (uuid 08e99c2d-40d9-4733-ac98-13f6b4c943a0))
     (pin "2" (uuid e7c0e8ca-3e8c-4ed9-aeae-78c5ae47f24c))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C22") (unit 1)
         )
@@ -5874,7 +5874,7 @@
     (pin "1" (uuid c3a82a66-e52e-44d9-ba5b-8eac3ac59b97))
     (pin "2" (uuid 7d0b26f8-ab39-4f4c-9d29-8ade3c1f524a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C56") (unit 1)
         )
@@ -5909,7 +5909,7 @@
     (pin "1" (uuid 27ae3cb4-e4f5-4089-8020-e53f1fb208e6))
     (pin "2" (uuid 66e0394d-0c2d-43e1-ae0d-51b4d0e04463))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C47") (unit 1)
         )
@@ -5923,7 +5923,7 @@
     (property "Reference" "JP8" (at 50.8 124.46 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 124.46 0)
+    (property "Value" "~" (at 53.34 124.46 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 127 0) (do_not_autoplace)
@@ -5938,7 +5938,7 @@
     (pin "1" (uuid f52acb7a-4a44-424a-acec-86b32796016f))
     (pin "2" (uuid 4f100f2b-cca0-4a72-884f-e085c3fd3e08))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP8") (unit 1)
         )
@@ -5952,7 +5952,7 @@
     (property "Reference" "JP48" (at 203.2 73.66 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 73.66 0)
+    (property "Value" "~" (at 205.74 73.66 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 76.2 0) (do_not_autoplace)
@@ -5967,7 +5967,7 @@
     (pin "1" (uuid c7a2d5aa-57ca-4f72-bd52-ef57a1419915))
     (pin "2" (uuid 262336f2-ef98-4cf7-b985-2d317bb7d2fe))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP48") (unit 1)
         )
@@ -5994,7 +5994,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP68") (unit 1)
         )
@@ -6029,7 +6029,7 @@
     (pin "1" (uuid 634d1e90-066b-45b8-bad6-85cbc521a6ba))
     (pin "2" (uuid 45ac226d-d2d1-4cc8-ac52-bd40a7dba605))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C17") (unit 1)
         )
@@ -6064,7 +6064,7 @@
     (pin "1" (uuid 47634d2b-eafc-487a-af08-badd6305950e))
     (pin "2" (uuid 3e6d3f1b-931e-43a7-9f52-7d0759e9f9d2))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C52") (unit 1)
         )
@@ -6099,7 +6099,7 @@
     (pin "1" (uuid 7392922e-f697-42f2-a403-59da29ee5185))
     (pin "2" (uuid 05ac6d8e-015a-4d70-8bbb-3f77d255444f))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C12") (unit 1)
         )
@@ -6113,7 +6113,7 @@
     (property "Reference" "JP7" (at 50.8 114.3 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 53.34 114.3 0)
+    (property "Value" "~" (at 53.34 114.3 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 63.5 116.84 0) (do_not_autoplace)
@@ -6128,7 +6128,7 @@
     (pin "1" (uuid 3da6c2e1-5ea5-46ca-a1bc-16858ffe18bc))
     (pin "2" (uuid 6ccd15bb-4cd0-473a-a8a9-9a96f4a5dd7e))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP7") (unit 1)
         )
@@ -6142,7 +6142,7 @@
     (property "Reference" "JP56" (at 233.68 63.5 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 236.22 63.5 0)
+    (property "Value" "~" (at 236.22 63.5 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 246.38 66.04 0) (do_not_autoplace)
@@ -6157,7 +6157,7 @@
     (pin "1" (uuid d108ca14-7df0-4ad1-8646-68e37f23c149))
     (pin "2" (uuid 54f17c4a-b2f4-419c-bf7d-ff52ec5cc5e9))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP56") (unit 1)
         )
@@ -6192,7 +6192,7 @@
     (pin "1" (uuid 539a0b02-6d1d-46ca-b531-a303931fa756))
     (pin "2" (uuid 7e7a8cb5-047d-4085-9150-542bc40af408))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C62") (unit 1)
         )
@@ -6206,7 +6206,7 @@
     (property "Reference" "JP12" (at 81.28 73.66 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 83.82 73.66 0)
+    (property "Value" "~" (at 83.82 73.66 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 93.98 76.2 0) (do_not_autoplace)
@@ -6221,7 +6221,7 @@
     (pin "1" (uuid a7b96bba-260f-4859-8f02-004c2afc133b))
     (pin "2" (uuid 897f4922-1d82-429c-8353-f7ad54047523))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP12") (unit 1)
         )
@@ -6235,7 +6235,7 @@
     (property "Reference" "JP25" (at 111.76 114.3 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 114.3 0)
+    (property "Value" "~" (at 114.3 114.3 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 116.84 0) (do_not_autoplace)
@@ -6250,7 +6250,7 @@
     (pin "1" (uuid 2fa09455-8fe8-4040-b8cd-83cc43a0db67))
     (pin "2" (uuid 5235c81c-e9c1-4d7a-8899-3ae8c137cf36))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP25") (unit 1)
         )
@@ -6264,7 +6264,7 @@
     (property "Reference" "JP22" (at 111.76 83.82 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 114.3 83.82 0)
+    (property "Value" "~" (at 114.3 83.82 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 124.46 86.36 0) (do_not_autoplace)
@@ -6279,7 +6279,7 @@
     (pin "1" (uuid 013591e6-bea7-4607-b965-cba1be0894e6))
     (pin "2" (uuid 3fdd806e-352d-4bfc-96e0-7cebcb70d68b))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP22") (unit 1)
         )
@@ -6293,7 +6293,7 @@
     (property "Reference" "JP41" (at 172.72 93.98 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 175.26 93.98 0)
+    (property "Value" "~" (at 175.26 93.98 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 185.42 96.52 0) (do_not_autoplace)
@@ -6308,7 +6308,7 @@
     (pin "1" (uuid a26b0e6a-f3d5-4edc-9983-64d22ac8dd6f))
     (pin "2" (uuid 985135d0-50e8-448d-bb51-c338bf25a49f))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP41") (unit 1)
         )
@@ -6343,7 +6343,7 @@
     (pin "1" (uuid c777cbe6-e8aa-456e-a10e-ecb5912492f4))
     (pin "2" (uuid ccbcbc5e-7312-4883-b9f9-70c55be1baaf))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C10") (unit 1)
         )
@@ -6378,7 +6378,7 @@
     (pin "1" (uuid e0eed587-9814-4e97-a503-79e4a75c0937))
     (pin "2" (uuid e167ee97-d860-4415-9abc-ece759f1048a))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C2") (unit 1)
         )
@@ -6392,7 +6392,7 @@
     (property "Reference" "JP50" (at 203.2 93.98 90)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "HARWIN-254-M-1X02-JUMPER-VERTICAL" (at 205.74 93.98 0)
+    (property "Value" "~" (at 205.74 93.98 0)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
     (property "Footprint" "tronixio:HARWIN-M20-999024x" (at 215.9 96.52 0) (do_not_autoplace)
@@ -6407,7 +6407,7 @@
     (pin "1" (uuid b53541fc-29b5-4f7e-8e33-d9ae1f58c5a1))
     (pin "2" (uuid 9e3481d4-6ed0-4dba-8041-3bb5f3a28be7))
     (instances
-      (project "capacitor"
+      (project "capacitors"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP50") (unit 1)
         )
