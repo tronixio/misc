@@ -3,7 +3,7 @@
 ## Schematics.
 
 - [Capacitors Board.](https://github.com/tronixio/misc/blob/main/Kicad/capacitors/extras/schematic.pdf)
-- [Resistor Board.](https://github.com/tronixio/misc/blob/main/Kicad/resistor/extras/schematic.pdf)
+- [Resistors Board.](https://github.com/tronixio/misc/blob/main/Kicad/resistors/extras/schematic.pdf)
 
 ## CAPACITORS Board Top.
 
@@ -13,13 +13,13 @@
 
 ![CAPACITORS Board Bottom.](https://github.com/tronixio/misc/blob/main/Kicad/capacitors/extras/bottom.png)
 
-## RESISTOR Board Top.
+## RESISTORS Board Top.
 
-![RESISTOR Board Top.](https://github.com/tronixio/misc/blob/main/Kicad/resistor/extras/top.png)
+![RESISTORS Board Top.](https://github.com/tronixio/misc/blob/main/Kicad/resistors/extras/top.png)
 
-## RESISTOR Board Bottom.
+## RESISTORS Board Bottom.
 
-![RESISTOR Board Bottom.](https://github.com/tronixio/misc/blob/main/Kicad/resistor/extras/bottom.png)
+![RESISTORS Board Bottom.](https://github.com/tronixio/misc/blob/main/Kicad/resistors/extras/bottom.png)
 
 ## Notes.
 
