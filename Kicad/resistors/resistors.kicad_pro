@@ -357,12 +357,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "tronixio"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "resistor.kicad_pro",
+    "filename": "resistors.kicad_pro",
     "version": 1
   },
   "net_settings": {
