@@ -278,7 +278,7 @@
       (property "Reference" "R" (at 0 3.81 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)) (justify left))
       )
-      (property "Value" "10k" (at 0 0 90) (do_not_autoplace)
+      (property "Value" "10k0" (at 0 0 90) (do_not_autoplace)
         (effects (font (size 1.15 1.15)))
       )
       (property "Footprint" "tronixio:RESISTOR-SMD-1206" (at 0 -12.7 0) (do_not_autoplace)
@@ -2437,7 +2437,7 @@
     (pin "1" (uuid cbda9a2e-a970-4e5a-b613-209bf01d332e))
     (pin "2" (uuid 449ab553-c18d-4f95-97e2-30a726340515))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R3") (unit 1)
         )
@@ -2464,7 +2464,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP77") (unit 1)
         )
@@ -2493,7 +2493,7 @@
     (pin "1" (uuid e406b241-d85f-4e37-a2c1-7861b133e183))
     (pin "2" (uuid 492368b0-70a9-44ad-93a5-44d707f95a16))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP9") (unit 1)
         )
@@ -2525,7 +2525,7 @@
     (pin "1" (uuid ab68bdff-806a-4ee0-a040-eabcab4d9dc0))
     (pin "2" (uuid 88773e9a-0c65-4e89-b043-7a374eb0483c))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R54") (unit 1)
         )
@@ -2557,7 +2557,7 @@
     (pin "1" (uuid 3572b4a3-9af5-4493-a2a2-ee520ce8f9e2))
     (pin "2" (uuid e8c638a1-0cc1-49e3-9c50-f2a4e6b7a62e))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R29") (unit 1)
         )
@@ -2589,7 +2589,7 @@
     (pin "1" (uuid 7a64d8e1-f29b-431c-a1da-3c60f9bbf344))
     (pin "2" (uuid 0261d4e4-9be1-41cc-8676-d8ab05f4c49e))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R26") (unit 1)
         )
@@ -2621,7 +2621,7 @@
     (pin "1" (uuid 8395c9fd-cf32-4875-bcfe-b3a4a3f3ff35))
     (pin "2" (uuid c02623e4-e055-4117-bc44-371eb165a693))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R4") (unit 1)
         )
@@ -2653,7 +2653,7 @@
     (pin "1" (uuid 485fc5ec-6284-42bb-b6ba-174bf84fe520))
     (pin "2" (uuid 2af0ed20-542a-41e2-aa2a-452e49e4feb2))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R40") (unit 1)
         )
@@ -2685,7 +2685,7 @@
     (pin "1" (uuid eea408e8-7e00-40b2-bdf4-8218e74441f3))
     (pin "2" (uuid acb2e797-1aae-461b-afdb-138b43d8540a))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R48") (unit 1)
         )
@@ -2714,7 +2714,7 @@
     (pin "1" (uuid e999878b-2869-44d0-86af-86bd278c1e82))
     (pin "2" (uuid 1efe101e-59ed-4794-9fe5-55704d51e8e5))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP49") (unit 1)
         )
@@ -2746,7 +2746,7 @@
     (pin "1" (uuid 20c346cd-9640-4375-a18b-749fe5d9a320))
     (pin "2" (uuid 1a0fcfee-a9ed-4298-bb0d-89fc286aff7f))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R59") (unit 1)
         )
@@ -2778,7 +2778,7 @@
     (pin "1" (uuid 703b73f5-6521-42bb-b1a1-27e7b213c077))
     (pin "2" (uuid 95df8389-fe77-41e9-8837-4e66ad7369a8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R19") (unit 1)
         )
@@ -2810,7 +2810,7 @@
     (pin "1" (uuid 9e0d5efb-accc-4462-9e6f-f26cda872541))
     (pin "2" (uuid f72bce9f-d22a-47a2-a1b2-c671429ff3a2))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R52") (unit 1)
         )
@@ -2839,7 +2839,7 @@
     (pin "1" (uuid 645f8e8f-83dd-461f-8710-d7413772498b))
     (pin "2" (uuid 22c9cb74-6053-422e-b99e-6bce5a631dd0))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP50") (unit 1)
         )
@@ -2868,7 +2868,7 @@
     (pin "1" (uuid 8a90055c-f14c-43ee-a2e6-939db4c797cd))
     (pin "2" (uuid 622cdec4-fe09-44b7-8e1f-a7697c3d6b5d))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP45") (unit 1)
         )
@@ -2900,7 +2900,7 @@
     (pin "1" (uuid d4de00a8-3575-4623-a347-bb724fb9b78f))
     (pin "2" (uuid a1f57f3e-34dc-47ca-adc8-095e811317d4))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R2") (unit 1)
         )
@@ -2929,7 +2929,7 @@
     (pin "1" (uuid a18960eb-33be-4f9f-b4f3-a2bd3b1f6cbb))
     (pin "2" (uuid 49ac1393-337b-40e3-9967-a7a6757a51f3))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP68") (unit 1)
         )
@@ -2961,7 +2961,7 @@
     (pin "1" (uuid c2edaaf7-607a-4998-887d-bc14a0cf38c8))
     (pin "2" (uuid 0d04977b-41e1-4564-b96c-ebac0116f75d))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R9") (unit 1)
         )
@@ -2993,7 +2993,7 @@
     (pin "1" (uuid 5bf513af-9d36-44ed-a7c0-a2ced5675a04))
     (pin "2" (uuid 9a151390-4d80-45de-950f-63ed8dc5c927))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R14") (unit 1)
         )
@@ -3025,7 +3025,7 @@
     (pin "1" (uuid 2e738208-9c17-4959-8b10-cd5ebb63c5a2))
     (pin "2" (uuid 3aaa96b7-fda4-4bde-83d1-0032bf9d497c))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R32") (unit 1)
         )
@@ -3057,7 +3057,7 @@
     (pin "1" (uuid 34ae2b47-1659-4eb7-b421-cdf85e1d2a16))
     (pin "2" (uuid eee8a0a5-821b-4ca0-9286-347feea86b77))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R41") (unit 1)
         )
@@ -3086,7 +3086,7 @@
     (pin "1" (uuid e8e69fea-4d5c-4482-ae01-5077b17376a0))
     (pin "2" (uuid e865df83-0167-4c8d-a96f-1d09127bc7fd))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP67") (unit 1)
         )
@@ -3115,7 +3115,7 @@
     (pin "1" (uuid 03d8cece-2d9e-4a1a-ae75-97979819dfcd))
     (pin "2" (uuid 91f7e56e-774b-407d-80b6-9115a7d01e1b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP10") (unit 1)
         )
@@ -3147,7 +3147,7 @@
     (pin "1" (uuid 5b695594-d13e-40ea-bcef-643567b22c4e))
     (pin "2" (uuid c436a074-e773-4b2c-8e4b-7ac097cd4da4))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R50") (unit 1)
         )
@@ -3176,7 +3176,7 @@
     (pin "1" (uuid 2e9c662e-4762-4f28-8911-7807cc75ca5e))
     (pin "2" (uuid 3d24e594-c6f5-4c43-9e7d-c5e4eb5fb538))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP57") (unit 1)
         )
@@ -3205,7 +3205,7 @@
     (pin "1" (uuid 378ec2c6-7443-4352-9036-0d5e87a345ea))
     (pin "2" (uuid 75cca9be-c07d-4ff6-a6fd-34783bfacd44))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP19") (unit 1)
         )
@@ -3237,7 +3237,7 @@
     (pin "1" (uuid 9253e3e3-6a2c-4ebf-afac-6737df7a0262))
     (pin "2" (uuid 8ec9504f-f9e7-4f85-a50c-607cd085333e))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R47") (unit 1)
         )
@@ -3269,7 +3269,7 @@
     (pin "1" (uuid 2a65b8f5-cbcb-45d3-90ed-c55bc2900da1))
     (pin "2" (uuid 70c398a8-64be-4b34-a86d-60d290069e89))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R10") (unit 1)
         )
@@ -3298,7 +3298,7 @@
     (pin "1" (uuid 5d21d230-59c1-4590-8f22-735f0f9cc8ee))
     (pin "2" (uuid b19780d6-8dc0-4f9f-ad7f-69651590c894))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP13") (unit 1)
         )
@@ -3330,7 +3330,7 @@
     (pin "1" (uuid 025588bd-5c7f-433f-99c9-497230adafdd))
     (pin "2" (uuid 8754ba45-9f8f-473f-b917-be038aa75482))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R53") (unit 1)
         )
@@ -3359,7 +3359,7 @@
     (pin "1" (uuid 6af9fdbf-af81-4b0f-a1ab-9cce02b53086))
     (pin "2" (uuid 30abe2d5-48e1-4047-8550-7270e32b60df))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP18") (unit 1)
         )
@@ -3388,7 +3388,7 @@
     (pin "1" (uuid ac0036d2-ad99-4226-a110-f6959b047e46))
     (pin "2" (uuid 438fb649-edf9-4015-a9f6-c83e51d4bdf4))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP53") (unit 1)
         )
@@ -3417,7 +3417,7 @@
     (pin "1" (uuid 74bd234d-9330-4ffb-8b3d-de35f3a66cca))
     (pin "2" (uuid f1a9b08a-4686-4cc5-a998-a082659b3afe))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP16") (unit 1)
         )
@@ -3446,7 +3446,7 @@
     (pin "1" (uuid ca18a924-91d0-4cef-86fe-55308a4a5bfd))
     (pin "2" (uuid 8583f5e0-0e43-4353-bf58-112fe6426963))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP60") (unit 1)
         )
@@ -3475,7 +3475,7 @@
     (pin "1" (uuid 1fd4c5d5-f8a6-4f4b-9880-b34f97abe2d4))
     (pin "2" (uuid 9f4771cb-b602-468d-9ecf-a83821166cb1))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP2") (unit 1)
         )
@@ -3507,7 +3507,7 @@
     (pin "1" (uuid 841e9b0d-1804-4294-a785-abdddf9002f1))
     (pin "2" (uuid 238431fc-f368-4205-84cf-4540ee352621))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R37") (unit 1)
         )
@@ -3536,7 +3536,7 @@
     (pin "1" (uuid 5437d16a-214e-4b15-923f-bd92d8d57c6d))
     (pin "2" (uuid 689a0593-fb19-4063-be50-f74bba0849c5))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP6") (unit 1)
         )
@@ -3565,7 +3565,7 @@
     (pin "1" (uuid 5cab9aa5-2ead-4bde-8e3b-3ee953d38b09))
     (pin "2" (uuid c870f962-32cc-4679-b59b-bf1567c3d375))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP31") (unit 1)
         )
@@ -3597,7 +3597,7 @@
     (pin "1" (uuid 8f84a81d-5145-4a0b-8ca1-e623a808e26d))
     (pin "2" (uuid 55b31817-c541-4440-8cfe-411ac6eb9753))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R8") (unit 1)
         )
@@ -3626,7 +3626,7 @@
     (pin "1" (uuid b4792c4b-b7d8-490e-bed3-855762e236ac))
     (pin "2" (uuid 868556a5-be65-4466-8ca5-0c35c0428ac6))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP12") (unit 1)
         )
@@ -3658,7 +3658,7 @@
     (pin "1" (uuid c214aebc-b440-4515-9ca4-63741b62586e))
     (pin "2" (uuid 900c062a-070a-40ad-a464-b3f792bd9557))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R20") (unit 1)
         )
@@ -3685,7 +3685,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H1") (unit 1)
         )
@@ -3717,7 +3717,7 @@
     (pin "1" (uuid f3e70058-74ba-4add-bcb4-5f011409d761))
     (pin "2" (uuid 382977ca-e931-4e9e-8b57-482d133b1caf))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R28") (unit 1)
         )
@@ -3746,7 +3746,7 @@
     (pin "1" (uuid 129f26be-d8ec-4c70-9665-fb4acbe9912a))
     (pin "2" (uuid 4c11b4e9-1b8e-4d00-b1b7-1eef30e90733))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP69") (unit 1)
         )
@@ -3778,7 +3778,7 @@
     (pin "1" (uuid 15f3a6d2-5682-4c21-879d-8b812d4b2c5e))
     (pin "2" (uuid cc8bf020-d067-47d9-8291-1c72d699985f))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R22") (unit 1)
         )
@@ -3810,7 +3810,7 @@
     (pin "1" (uuid da7e2066-39db-4465-a86c-98137b74d702))
     (pin "2" (uuid 70281c6c-e3ee-42c3-be00-7a10463bc82d))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R63") (unit 1)
         )
@@ -3842,7 +3842,7 @@
     (pin "1" (uuid 5fdfc64e-07a4-4768-9909-90017b8755dd))
     (pin "2" (uuid 016e12f7-af88-4639-bed4-1ec1c0253cd8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R30") (unit 1)
         )
@@ -3874,7 +3874,7 @@
     (pin "1" (uuid debc8834-cb39-4ff7-967f-0e5b6d882c79))
     (pin "2" (uuid 97363949-e112-416e-8e35-909272c88465))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R57") (unit 1)
         )
@@ -3903,7 +3903,7 @@
     (pin "1" (uuid 251b8aa4-3927-4943-8722-69092c7a1387))
     (pin "2" (uuid 3470ced2-74e6-41e9-bde4-fd3d51430186))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP3") (unit 1)
         )
@@ -3932,7 +3932,7 @@
     (pin "1" (uuid 5e3bee90-eabb-4e4e-b10a-85d7058036be))
     (pin "2" (uuid 439bd8df-e563-4400-aea6-a9866fb31f90))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP41") (unit 1)
         )
@@ -3961,7 +3961,7 @@
     (pin "1" (uuid b92778f1-044b-4c28-bc78-9844b91ccaf3))
     (pin "2" (uuid f2145683-b7a9-4ab6-afab-7fc9df4e9277))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP54") (unit 1)
         )
@@ -3990,7 +3990,7 @@
     (pin "1" (uuid f7c50ff8-5920-45a8-baff-cdabe9ce5742))
     (pin "2" (uuid 50ee3d1d-42ce-49d9-9c7d-860aa9142b0f))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP59") (unit 1)
         )
@@ -4019,7 +4019,7 @@
     (pin "1" (uuid a5d300f4-4193-471f-9995-beee55e82259))
     (pin "2" (uuid 5bfec630-234d-410e-8b45-0113efcb34f2))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP20") (unit 1)
         )
@@ -4051,7 +4051,7 @@
     (pin "1" (uuid f727e80a-eb2b-4d66-81b0-d0531b1cfd9c))
     (pin "2" (uuid 8857fc1c-99c5-4f03-b385-00efa1ecc3a9))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R38") (unit 1)
         )
@@ -4080,7 +4080,7 @@
     (pin "1" (uuid fe31cbb0-057b-44a7-91c6-07cd8067712a))
     (pin "2" (uuid 5142aae2-40ab-43b8-883d-cffbf508ceba))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP5") (unit 1)
         )
@@ -4112,7 +4112,7 @@
     (pin "1" (uuid 1076250f-5161-47be-bc8f-e2efe452b3b8))
     (pin "2" (uuid e5b4115a-d058-43f2-8abe-6cb25f9a201a))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R27") (unit 1)
         )
@@ -4141,7 +4141,7 @@
     (pin "1" (uuid 04c179c2-7ab6-4a79-977d-84e48c99605f))
     (pin "2" (uuid 369db90b-49fc-4392-9209-98e9d966a50b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP15") (unit 1)
         )
@@ -4170,7 +4170,7 @@
     (pin "1" (uuid 007e1266-f420-46f4-9399-ccb5e55a3a11))
     (pin "2" (uuid 866defb2-1e18-45a3-9a4a-eecd29415917))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP32") (unit 1)
         )
@@ -4202,7 +4202,7 @@
     (pin "1" (uuid c98eb075-0324-4804-b5ed-17ef3fb00d83))
     (pin "2" (uuid 8d1377f7-39e1-4329-86d0-88fe26942a53))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R56") (unit 1)
         )
@@ -4231,7 +4231,7 @@
     (pin "1" (uuid 18e17098-c655-49d3-b2e5-e3db7c0ac52c))
     (pin "2" (uuid 207719f1-ee06-4a13-ad10-6d0b5131f86b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP40") (unit 1)
         )
@@ -4260,7 +4260,7 @@
     (pin "1" (uuid 913e55fa-5fa0-47c9-8d2e-d033be8ee162))
     (pin "2" (uuid d4e73b4a-704f-422b-8c04-255644f71065))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "K1") (unit 1)
         )
@@ -4292,7 +4292,7 @@
     (pin "1" (uuid b20da1e9-8563-41c0-bec3-b8ffad59dbca))
     (pin "2" (uuid 1159b169-aed2-4ec2-a7d3-53bc6d8b12d3))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R23") (unit 1)
         )
@@ -4321,7 +4321,7 @@
     (pin "1" (uuid fe1402b9-2e3e-404d-9485-292e6d4a4875))
     (pin "2" (uuid 64a80dee-18ba-47d1-b456-08e572017823))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP39") (unit 1)
         )
@@ -4350,7 +4350,7 @@
     (pin "1" (uuid b130547b-61b7-45e7-8e0e-a14507ec72c8))
     (pin "2" (uuid ca396a58-a991-4dde-bf45-216c44de1a84))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP55") (unit 1)
         )
@@ -4379,7 +4379,7 @@
     (pin "1" (uuid a039e601-406f-4754-9a13-c838deeb70d6))
     (pin "2" (uuid cd469999-1f57-4932-b4a2-83fc46e04d2b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP8") (unit 1)
         )
@@ -4408,7 +4408,7 @@
     (pin "1" (uuid 94f2e4e3-e107-40be-af18-cc5e7ae52745))
     (pin "2" (uuid 8a5e699a-70b5-469f-a6ac-419b038be274))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP34") (unit 1)
         )
@@ -4437,7 +4437,7 @@
     (pin "1" (uuid 89e4e6e5-0a38-4b75-8943-830d701f3f7c))
     (pin "2" (uuid 4312ae51-19ef-4bd0-8d36-ce090d55750b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP4") (unit 1)
         )
@@ -4464,7 +4464,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H4") (unit 1)
         )
@@ -4493,7 +4493,7 @@
     (pin "1" (uuid c5035384-6960-4dc8-a627-1858e0a552d5))
     (pin "2" (uuid a05ca4c2-a0c6-4a8f-93d7-09f83218a838))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP47") (unit 1)
         )
@@ -4525,7 +4525,7 @@
     (pin "1" (uuid 44d57cf1-4f60-4a52-8e55-d078a7bcaf11))
     (pin "2" (uuid 91e3ea45-d814-4d7f-ab2d-080f8e789c07))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R31") (unit 1)
         )
@@ -4552,7 +4552,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H3") (unit 1)
         )
@@ -4581,7 +4581,7 @@
     (pin "1" (uuid 176d1b3a-c009-4b7a-b7fb-a8c6586a6772))
     (pin "2" (uuid 894ff231-88e9-4ee4-bb58-c72ec4e85f99))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP44") (unit 1)
         )
@@ -4610,7 +4610,7 @@
     (pin "1" (uuid 387a4a36-441a-45e3-a281-e18f60c3a329))
     (pin "2" (uuid 243e257e-bbe7-4a01-b31f-cb0ac3c8fbc4))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP17") (unit 1)
         )
@@ -4642,7 +4642,7 @@
     (pin "1" (uuid 403e55eb-4079-4659-b1a3-538dfcc5a369))
     (pin "2" (uuid 0d89cdd0-aae0-46cc-a96d-d6ae33b64592))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R12") (unit 1)
         )
@@ -4674,7 +4674,7 @@
     (pin "1" (uuid d4aba208-79b6-47e1-a132-1fddab5666bb))
     (pin "2" (uuid adb5c2a7-cf44-4ec7-9629-f23f0efb6f1c))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R61") (unit 1)
         )
@@ -4703,7 +4703,7 @@
     (pin "1" (uuid 9d0a0e0e-ba65-4a6a-a0b5-b5619db6e561))
     (pin "2" (uuid 07adcc8c-0d35-4fd3-8931-562b3da39648))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP66") (unit 1)
         )
@@ -4735,7 +4735,7 @@
     (pin "1" (uuid 44785388-9ba9-4f5e-b965-828be0893138))
     (pin "2" (uuid b479beef-1122-4596-92f6-00275311617f))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R55") (unit 1)
         )
@@ -4764,7 +4764,7 @@
     (pin "1" (uuid 674197b7-92fd-4bf1-805f-5c8b89174db5))
     (pin "2" (uuid d7eedbf0-b3b7-4c03-a4d5-320196108df8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP38") (unit 1)
         )
@@ -4793,7 +4793,7 @@
     (pin "1" (uuid e7155714-adeb-497f-a6e0-708f09035f86))
     (pin "2" (uuid c0f69f2d-cb6d-47d3-a7e4-8e85f4656256))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP23") (unit 1)
         )
@@ -4825,7 +4825,7 @@
     (pin "1" (uuid f7d2821d-01d9-428b-b044-8180912463c0))
     (pin "2" (uuid 0cc3b2cc-17c2-45c0-9ea7-3a949adec6e5))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R11") (unit 1)
         )
@@ -4857,7 +4857,7 @@
     (pin "1" (uuid e57ecc4c-d911-4bae-a172-e5d6147dc702))
     (pin "2" (uuid 9b5f8ad5-01fb-41c1-aa50-4ee25bf6fcbd))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R1") (unit 1)
         )
@@ -4886,7 +4886,7 @@
     (pin "1" (uuid d052a783-b301-4c99-8f00-8ed614108220))
     (pin "2" (uuid 3f761a8e-5609-4a11-b723-701e843968b8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP65") (unit 1)
         )
@@ -4915,7 +4915,7 @@
     (pin "1" (uuid 6f0ba1c2-660f-4e67-bd3f-748a3205f616))
     (pin "2" (uuid f66ea7e7-2891-43c4-801d-3bef103445e9))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP11") (unit 1)
         )
@@ -4944,7 +4944,7 @@
     (pin "1" (uuid 25292bbd-dd64-42e2-80cb-0ac2baa3a1b5))
     (pin "2" (uuid 3ba2c703-f071-4f0d-8e78-b5cdd886e5fc))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP14") (unit 1)
         )
@@ -4973,7 +4973,7 @@
     (pin "1" (uuid a0bbdb4b-058c-458d-98b7-4c41af164265))
     (pin "2" (uuid 75f0b419-a417-4255-b68a-b4efb9f44fe2))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP64") (unit 1)
         )
@@ -5005,7 +5005,7 @@
     (pin "1" (uuid 5bf70024-c875-4f34-aa71-583c0063e46c))
     (pin "2" (uuid 6dd4e34f-f344-4690-9c55-3df4987d5412))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R51") (unit 1)
         )
@@ -5034,7 +5034,7 @@
     (pin "1" (uuid 58375d12-3cab-47cf-afcd-9beb91627016))
     (pin "2" (uuid 4e1e65ff-1635-4ed5-b791-63a2b2a6fa7b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP21") (unit 1)
         )
@@ -5066,7 +5066,7 @@
     (pin "1" (uuid feee58aa-1ba3-4aa0-8390-b44723bb0076))
     (pin "2" (uuid 2e5f44b3-ea80-4c96-813d-c1ba6eca073b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R5") (unit 1)
         )
@@ -5095,7 +5095,7 @@
     (pin "1" (uuid ba440ea2-30c5-4fda-831d-e9348ad71dbe))
     (pin "2" (uuid 7da912a6-e8a0-4cb4-8453-c39ca024873d))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP58") (unit 1)
         )
@@ -5124,7 +5124,7 @@
     (pin "1" (uuid de8c02d9-3121-46c2-a318-4b89d7094cf5))
     (pin "2" (uuid cb0919a4-ab60-4a8f-b9c7-62b706191c2f))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP22") (unit 1)
         )
@@ -5153,7 +5153,7 @@
     (pin "1" (uuid 751551c2-a7f6-4739-a7c8-80196f240352))
     (pin "2" (uuid ad0bff92-4e0a-4d5c-a3fd-54061ed81c28))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP7") (unit 1)
         )
@@ -5185,7 +5185,7 @@
     (pin "1" (uuid 41c83829-df5d-42d5-b259-ad190cfd085a))
     (pin "2" (uuid e9085556-b402-4fdb-a447-163647e4a543))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R58") (unit 1)
         )
@@ -5217,7 +5217,7 @@
     (pin "1" (uuid 2285a3ee-7c68-4715-9eba-9d23259ad784))
     (pin "2" (uuid a2d7611a-dcc8-47b3-b682-1accd3c1cd75))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R21") (unit 1)
         )
@@ -5244,7 +5244,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP72") (unit 1)
         )
@@ -5276,7 +5276,7 @@
     (pin "1" (uuid 17996cd9-2785-4743-abd3-8361b1b934d7))
     (pin "2" (uuid 0cfb1b2b-469d-419c-a469-fab7ffee4be8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R39") (unit 1)
         )
@@ -5303,7 +5303,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP71") (unit 1)
         )
@@ -5335,7 +5335,7 @@
     (pin "1" (uuid 981155ad-6509-4d0a-9dd5-c5f8edd99455))
     (pin "2" (uuid 3a299eb8-75c4-4355-a19f-8d66fe263e77))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R33") (unit 1)
         )
@@ -5364,7 +5364,7 @@
     (pin "1" (uuid 75b6ac94-a87d-4f7c-8dde-540eda849d27))
     (pin "2" (uuid 2ab77012-2460-4329-a96b-055747942b3f))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP24") (unit 1)
         )
@@ -5396,7 +5396,7 @@
     (pin "1" (uuid c94d374a-207e-404e-805c-1111f9685dd8))
     (pin "2" (uuid 6a8eb05f-960e-41c8-941c-83d77e6de3db))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R16") (unit 1)
         )
@@ -5428,7 +5428,7 @@
     (pin "1" (uuid dc64d896-3a82-45a6-8cce-4cb22b465f25))
     (pin "2" (uuid c9e293d4-8b13-41f3-8d5b-b335b4f8ea42))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R35") (unit 1)
         )
@@ -5460,7 +5460,7 @@
     (pin "1" (uuid 02ffb045-2732-4202-94f6-7414d99e16f1))
     (pin "2" (uuid 66ede7fd-6d1a-492d-8522-88b5d881a2eb))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R17") (unit 1)
         )
@@ -5487,7 +5487,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H2") (unit 1)
         )
@@ -5519,7 +5519,7 @@
     (pin "1" (uuid 8ad8945a-7d63-4ec7-a769-4a723ca6f511))
     (pin "2" (uuid 449c6aa7-8e0a-4ebc-a1c0-b82ef8667f05))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R42") (unit 1)
         )
@@ -5551,7 +5551,7 @@
     (pin "1" (uuid e75eccba-e3dd-4fcd-886f-82216b178975))
     (pin "2" (uuid 5e5fcdbe-c0fb-4207-980d-e5900a0a0aef))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R13") (unit 1)
         )
@@ -5580,7 +5580,7 @@
     (pin "1" (uuid 7d3b3d79-9d10-4b44-beb9-732bf2962329))
     (pin "2" (uuid 6a63a55f-8df0-40f7-8417-6f31b461a2ed))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP1") (unit 1)
         )
@@ -5609,7 +5609,7 @@
     (pin "1" (uuid 1a9b013c-3fcd-4590-99b2-d6cea6a832d4))
     (pin "2" (uuid a68a8442-7740-4715-b8f9-26017a8ccf70))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP27") (unit 1)
         )
@@ -5641,7 +5641,7 @@
     (pin "1" (uuid cdbe7b23-c022-472e-8447-79353f0cbfd9))
     (pin "2" (uuid cc105874-41b2-4946-8a5c-574ff6d2500b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R43") (unit 1)
         )
@@ -5670,7 +5670,7 @@
     (pin "1" (uuid cc8c133f-95fb-45a1-9616-7cf2bee20a51))
     (pin "2" (uuid 375b9cc8-5ef7-4a3e-82ad-514f282e0e6a))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP35") (unit 1)
         )
@@ -5699,7 +5699,7 @@
     (pin "1" (uuid 69213773-34c9-474d-97b5-14c0d7afd656))
     (pin "2" (uuid c1078173-4901-4f94-bd6e-6a9df9204e2e))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP42") (unit 1)
         )
@@ -5726,7 +5726,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP76") (unit 1)
         )
@@ -5755,7 +5755,7 @@
     (pin "1" (uuid a1bd0eea-2a16-4930-942e-c99b31a79424))
     (pin "2" (uuid dedd8bf6-18c3-4462-aba2-a2410055983b))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP63") (unit 1)
         )
@@ -5787,7 +5787,7 @@
     (pin "1" (uuid 7be4b2ab-7e86-4b8b-9fdd-9627eadae34c))
     (pin "2" (uuid b002a2d7-63c8-4baf-b357-4f3be25627b8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R45") (unit 1)
         )
@@ -5819,7 +5819,7 @@
     (pin "1" (uuid 197ab2e2-812a-44b2-8b36-5a1793bcc55e))
     (pin "2" (uuid 1f729611-69d1-4f92-8f26-697b5b8413f2))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R6") (unit 1)
         )
@@ -5848,7 +5848,7 @@
     (pin "1" (uuid b6463678-9664-4386-b231-42822ebdf3fa))
     (pin "2" (uuid 69052706-678f-47a1-a49f-5d6af24f9cd8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP25") (unit 1)
         )
@@ -5880,7 +5880,7 @@
     (pin "1" (uuid d9eabe8f-e2a7-42b5-a290-b4324cc27b56))
     (pin "2" (uuid d1edadea-e5ca-4268-8d64-c428088a7268))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R60") (unit 1)
         )
@@ -5909,7 +5909,7 @@
     (pin "1" (uuid 58104963-79a3-45fc-b761-87c8f5b46d94))
     (pin "2" (uuid 5c8fc908-7f11-432e-a7f0-4ef7ce336a21))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP52") (unit 1)
         )
@@ -5938,7 +5938,7 @@
     (pin "1" (uuid 4bc31fb6-8971-483c-a018-7eec10327976))
     (pin "2" (uuid bba44584-7f0c-4e9c-ba6b-8d7f45de68db))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP51") (unit 1)
         )
@@ -5970,7 +5970,7 @@
     (pin "1" (uuid 72ce1ec0-c934-4273-a9d2-9c6313e12a82))
     (pin "2" (uuid 50f04f3c-d2bf-435a-abc2-dcb4321d7cd8))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R7") (unit 1)
         )
@@ -5999,7 +5999,7 @@
     (pin "1" (uuid a741a90b-2f9e-4d50-adad-9e58b0d90d41))
     (pin "2" (uuid 701d6ffd-f97b-4bc2-80cd-c3ae46ed9f77))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP33") (unit 1)
         )
@@ -6031,7 +6031,7 @@
     (pin "1" (uuid 6d949206-3151-4c52-8081-7cbc702c036f))
     (pin "2" (uuid 0819211a-37a6-499e-ba4f-6515c84e2dcd))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R15") (unit 1)
         )
@@ -6063,7 +6063,7 @@
     (pin "1" (uuid a31158ef-b6c3-4638-a4c3-7c4596439a71))
     (pin "2" (uuid 2ab93a2f-a7cf-4659-a66d-515c53eb8a80))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R44") (unit 1)
         )
@@ -6092,7 +6092,7 @@
     (pin "1" (uuid 0051dfeb-9952-430a-8b3f-82be77af400d))
     (pin "2" (uuid a3a96d28-8891-452a-90ac-b07aba4c3e4d))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP62") (unit 1)
         )
@@ -6119,7 +6119,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP74") (unit 1)
         )
@@ -6151,7 +6151,7 @@
     (pin "1" (uuid 3785b70f-4f95-49e6-ad54-50bd55d0e401))
     (pin "2" (uuid fb87307a-c4a3-4fe6-839f-8022fbcb93f1))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R49") (unit 1)
         )
@@ -6180,7 +6180,7 @@
     (pin "1" (uuid 1e90c746-19bf-46aa-bdfe-0adec95af2cf))
     (pin "2" (uuid ec50957b-81e6-4f63-81f3-174c163ca9db))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP37") (unit 1)
         )
@@ -6212,7 +6212,7 @@
     (pin "1" (uuid 5baa92a4-90f4-47cb-9f3c-25ad3eac0232))
     (pin "2" (uuid d0ea5291-e196-4b72-981e-65e1b0a73f73))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R24") (unit 1)
         )
@@ -6244,7 +6244,7 @@
     (pin "1" (uuid b895813c-1916-4f94-8f52-58945174ee2d))
     (pin "2" (uuid 96c239c6-3a12-4f58-b8e3-8d01456a4fc5))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R62") (unit 1)
         )
@@ -6273,7 +6273,7 @@
     (pin "1" (uuid 33b4d006-1bf3-47bc-8fc2-cf1c26d5b243))
     (pin "2" (uuid be40a549-0cc3-48ee-8c1d-48ecf68fbd32))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP28") (unit 1)
         )
@@ -6302,7 +6302,7 @@
     (pin "1" (uuid 00ade476-c700-490e-a7e4-518ac120fe84))
     (pin "2" (uuid ce594cba-a4c8-42fe-b985-00320acb1607))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP56") (unit 1)
         )
@@ -6331,7 +6331,7 @@
     (pin "1" (uuid 50e5a98d-fba5-40bf-9b57-597a3c794fe0))
     (pin "2" (uuid 34b3c546-e960-4b7d-b766-7259ca580b89))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP36") (unit 1)
         )
@@ -6360,7 +6360,7 @@
     (pin "1" (uuid e52220b7-a502-47c7-addd-98a2bb9d0d88))
     (pin "2" (uuid 85df27f8-e3a6-4542-9de4-9dfdd6367cfd))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP70") (unit 1)
         )
@@ -6387,7 +6387,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP75") (unit 1)
         )
@@ -6416,7 +6416,7 @@
     (pin "1" (uuid 5326d9d9-6ad0-42fd-8c67-7ce83dab48ac))
     (pin "2" (uuid b1989a95-0570-4d09-a747-6e19b7916be9))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP26") (unit 1)
         )
@@ -6445,7 +6445,7 @@
     (pin "1" (uuid 31ad5d29-3c70-479d-b09b-3f5588eeae24))
     (pin "2" (uuid 66e76066-ca21-496d-8cf6-843b46a8b655))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP46") (unit 1)
         )
@@ -6474,7 +6474,7 @@
     (pin "1" (uuid d42771d9-8dfd-4d10-974d-42bcd23f2d77))
     (pin "2" (uuid b949b0c5-271c-4570-8ac0-ce656b2a4ab4))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP43") (unit 1)
         )
@@ -6503,7 +6503,7 @@
     (pin "1" (uuid 9c92ac45-6a61-495a-a0cd-669b4d341ca6))
     (pin "2" (uuid a60fc32d-bfe7-492c-aa3c-532c2f44dc50))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP30") (unit 1)
         )
@@ -6530,7 +6530,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP73") (unit 1)
         )
@@ -6562,7 +6562,7 @@
     (pin "1" (uuid 5eeebb96-ba5a-4ebe-a68b-43ccc9c2a4b4))
     (pin "2" (uuid 79fa4b3b-13f1-46a9-a1e5-c602dece23d3))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R36") (unit 1)
         )
@@ -6594,7 +6594,7 @@
     (pin "1" (uuid 8d9985e1-65bd-4560-ae18-16b087d44870))
     (pin "2" (uuid 773840a5-4bda-48b7-80ba-e9137f02078d))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R46") (unit 1)
         )
@@ -6626,7 +6626,7 @@
     (pin "1" (uuid 056608a8-56f5-4337-a0e4-0c5efdeb80d5))
     (pin "2" (uuid b473f94b-6423-4f93-b0af-7e836114ee7c))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R34") (unit 1)
         )
@@ -6658,7 +6658,7 @@
     (pin "1" (uuid 0cda24ce-da66-4737-8e9c-0e344bb00d4e))
     (pin "2" (uuid 456eff2f-e95f-48cb-8033-45149cc15701))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R25") (unit 1)
         )
@@ -6687,7 +6687,7 @@
     (pin "1" (uuid aa7bf824-7059-49c3-b244-3f70cbc6bdbb))
     (pin "2" (uuid a93b4938-2654-4a00-985a-fd21938ad86c))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP61") (unit 1)
         )
@@ -6719,7 +6719,7 @@
     (pin "1" (uuid 3f32b7b7-441c-4476-a338-a9cb07f4cd70))
     (pin "2" (uuid b2feca65-862a-471f-93af-3fa7b8b8d9f2))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "R18") (unit 1)
         )
@@ -6748,7 +6748,7 @@
     (pin "1" (uuid 9a14a0c3-9174-454d-8fae-515b2efdd523))
     (pin "2" (uuid 3fe57a6c-9ab1-4e91-a3bf-735c003bcac3))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP48") (unit 1)
         )
@@ -6777,7 +6777,7 @@
     (pin "1" (uuid 92b1d12b-8cba-46b9-9a7b-4abbcaf662f7))
     (pin "2" (uuid 3ebab7fb-fb4d-448d-821a-e7547288a736))
     (instances
-      (project "resistor"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP29") (unit 1)
         )
