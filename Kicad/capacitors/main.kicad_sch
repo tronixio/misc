@@ -70,10 +70,10 @@
       (property "Datasheet" "" (at 0 -2.54 0)
         (effects (font (size 1 1)) hide)
       )
-      (property "Tolerance" "5%" (at 0.635 -7.62 0) (do_not_autoplace)
+      (property "Voltage" "50V" (at 0.635 -5.08 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)) (justify left) hide)
       )
-      (property "Voltage" "50V" (at 0.635 -5.08 0) (do_not_autoplace)
+      (property "Tolerance" "5%" (at 0.635 -7.62 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)) (justify left) hide)
       )
       (property "Mouser" "80-C1206C101J5G" (at 0 -12.7 0) (do_not_autoplace)
@@ -116,10 +116,10 @@
       (property "Datasheet" "" (at 0 -2.54 0)
         (effects (font (size 1 1)) hide)
       )
-      (property "Tolerance" "5%" (at 0.635 -7.62 0) (do_not_autoplace)
+      (property "Voltage" "50V" (at 0.635 -5.08 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)) (justify left) hide)
       )
-      (property "Voltage" "50V" (at 0.635 -5.08 0) (do_not_autoplace)
+      (property "Tolerance" "5%" (at 0.635 -7.62 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)) (justify left) hide)
       )
       (property "Mouser" "80-C1206C103J5R" (at 0 -12.7 0) (do_not_autoplace)
@@ -149,7 +149,7 @@
         )
       )
     )
-    (symbol "tronixio:CAPACITOR-1206-10P-50V-5P-COG" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "tronixio:CAPACITOR-1206-10P-100V-1P-COG" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)) (justify left))
       )
@@ -162,19 +162,19 @@
       (property "Datasheet" "" (at 0 -2.54 0)
         (effects (font (size 1 1)) hide)
       )
-      (property "Voltage" "50V" (at 0.635 -5.08 0) (do_not_autoplace)
+      (property "Voltage" "100V" (at 0.635 -5.08 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)) (justify left) hide)
       )
-      (property "Tolerance" "5%" (at 0.635 -7.62 0) (do_not_autoplace)
-        (effects (font (size 1.15 1.15)) (justify left) hide)
+      (property "Tolerance" "1%" (at 0.635 -7.62 0) (do_not_autoplace)
+        (effects (font (size 1.15 1.15)) (justify left))
       )
-      (property "Mouser" "80-C1206C100J5G" (at 0 -12.7 0) (do_not_autoplace)
+      (property "Mouser" "581-12061A100FAT2A" (at 0 -12.7 0) (do_not_autoplace)
         (effects (font (size 1 1)) hide)
       )
       (property "ki_description" "Unpolarized Capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "CAPACITOR-1206-10P-50V-5P-COG_0_1"
+      (symbol "CAPACITOR-1206-10P-100V-1P-COG_0_1"
         (rectangle (start -1.524 -0.254) (end 1.524 -1.016)
           (stroke (width 0.001) (type default))
           (fill (type outline))
@@ -184,7 +184,7 @@
           (fill (type outline))
         )
       )
-      (symbol "CAPACITOR-1206-10P-50V-5P-COG_1_1"
+      (symbol "CAPACITOR-1206-10P-100V-1P-COG_1_1"
         (pin passive line (at 0 2.54 270) (length 1.905)
           (name "~" (effects (font (size 1 1))))
           (number "1" (effects (font (size 1 1))))
@@ -2000,10 +2000,10 @@
     (property "Tolerance" "5%" (at 88.9 91.44 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid a61ffbcc-f1c4-4a6c-af3d-6a63eab5f35f))
-    (pin "2" (uuid c3676f9f-6bc6-4ebb-8878-0a8afd30f53d))
+    (pin "1" (uuid f2bb6cf1-889f-4c41-8428-02a09e6d56cb))
+    (pin "2" (uuid 658c3f4a-5d8d-4005-a430-9e7550f3b06a))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C13") (unit 1)
         )
@@ -2029,10 +2029,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 106.68 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid c007cbd6-d2d3-4441-9055-1bcd6a8d5864))
-    (pin "2" (uuid 4d058ba6-adf3-43e9-9792-5070434cb3c2))
+    (pin "1" (uuid b48cc163-ad87-402b-9519-ffc0dc68f487))
+    (pin "2" (uuid 84ea228a-d2f3-4be6-bef8-2c201650798b))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP51") (unit 1)
         )
@@ -2064,12 +2064,47 @@
     (property "Tolerance" "5%" (at 210.82 81.28 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid dd10d8b6-b965-45fa-94a6-acc2428cc93f))
-    (pin "2" (uuid 9df941fe-3f98-485f-9ff3-c61c0952488d))
+    (pin "1" (uuid 4ba5a1f3-1139-4ac7-a64d-19767b786053))
+    (pin "2" (uuid 2f606ec0-da04-44dd-916d-0eb052be278b))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C48") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 76.2 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 04acdb2c-2ec3-4c19-b3bb-b5dc37f05daa)
+    (property "Reference" "C57" (at 241.3 73.66 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 78.74 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 76.2 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 76.2 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 76.2 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 71.2 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 81.28 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid 0c33e3a6-8e87-4fe0-8df3-7c7706534118))
+    (pin "2" (uuid dc66ac13-244b-4e34-b36c-0c957c63325a))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -2093,10 +2128,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 86.36 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 827d8303-7305-4cde-927a-41bac7b11e4b))
-    (pin "2" (uuid cf994b6e-3d2c-47d7-a8bc-fea68958cddf))
+    (pin "1" (uuid deddbe8b-e47e-4c86-b88b-fb5023fc8823))
+    (pin "2" (uuid d31700b0-44a8-4b70-82c2-f509ce2ba449))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP31") (unit 1)
         )
@@ -2128,47 +2163,12 @@
     (property "Tolerance" "5%" (at 180.34 101.6 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid a839b5b2-f2a3-40b4-900d-704a3d1f2a6b))
-    (pin "2" (uuid f964594c-a7c1-4c0d-b0d5-299a5c7e2911))
+    (pin "1" (uuid 1d649cbf-faf0-4f48-97a4-c531e0339b2f))
+    (pin "2" (uuid ed873177-6e31-4d23-a46d-b3430762220e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C41") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 137.16 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0c0a51df-0823-484b-977f-f1a5a512a7ae)
-    (property "Reference" "C63" (at 241.3 134.62 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 139.7 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 137.16 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 137.16 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 137.16 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 132.16 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 142.24 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid c56afb6d-6c4d-47d3-a98b-f5ab30fb3877))
-    (pin "2" (uuid e0edfba8-b91f-4093-a948-40f7afe0b98b))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C63") (unit 1)
         )
       )
     )
@@ -2198,10 +2198,10 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 127 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid b3d54411-620a-41ec-acfb-887a4f9026cc))
-    (pin "2" (uuid 24a2ecfb-97ce-4dc1-a56b-c0a79b303d54))
+    (pin "1" (uuid 19ed9650-30a3-42f8-a0a9-c3ee7f7aae3c))
+    (pin "2" (uuid 3b148cf1-f544-41ce-a60c-96e9398411a9))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C8") (unit 1)
         )
@@ -2227,10 +2227,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 86.36 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 896f0fff-32aa-49c1-97e8-6189c37d41b1))
-    (pin "2" (uuid c80aa7b0-1638-4f06-92bc-acc2248ced6c))
+    (pin "1" (uuid a1b5bea8-9c9b-44b7-9ba8-64a0289c9470))
+    (pin "2" (uuid d01e595d-5c27-4007-b0b7-37f1d579aa24))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP40") (unit 1)
         )
@@ -2262,12 +2262,47 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 55.88 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 481aae06-f992-4524-9d4a-75bfd2b16705))
-    (pin "2" (uuid a27354fb-1d47-4d11-a929-28bff81d9627))
+    (pin "1" (uuid d451b55d-4e08-412a-9a64-5eb52095a476))
+    (pin "2" (uuid 4109e70e-c456-4d3e-b38e-801a45ea3f68))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 137.16 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 10141466-dff5-494d-b24e-6dd53f40a722)
+    (property "Reference" "C63" (at 241.3 134.62 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 139.7 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 137.16 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 137.16 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 137.16 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 132.16 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 142.24 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid 2933a4ac-a82e-4529-9ce1-df6a3ce5cb36))
+    (pin "2" (uuid 132015f2-4079-43b6-bc54-59bbc6a8f0a7))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C63") (unit 1)
         )
       )
     )
@@ -2297,10 +2332,10 @@
     (property "Tolerance" "5%" (at 119.38 111.76 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 08fd1070-9f8f-4b82-af19-de689ca62202))
-    (pin "2" (uuid 79c6fa97-b8e3-477a-8372-a2a26c442330))
+    (pin "1" (uuid c0da1711-426c-42bb-b9e6-ad9a97d7ca52))
+    (pin "2" (uuid ba5b98c1-dc4f-4720-8c10-091f9514a051))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C24") (unit 1)
         )
@@ -2327,7 +2362,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP67") (unit 1)
         )
@@ -2359,10 +2394,10 @@
     (property "Tolerance" "5%" (at 210.82 111.76 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 1fe88939-7898-486a-b78e-f00541e17b51))
-    (pin "2" (uuid 6a85afa2-7250-40fa-8b9a-decfc4704321))
+    (pin "1" (uuid 87f017cd-2553-42a9-8136-c6965b1f6d4b))
+    (pin "2" (uuid d5c023aa-30d2-4e87-84da-e3c71a00da79))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C51") (unit 1)
         )
@@ -2388,10 +2423,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 137.16 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 0cff73b8-bbbd-4416-b799-0ef4412e8573))
-    (pin "2" (uuid f1809389-2cc1-4f65-8f93-8044c8d368db))
+    (pin "1" (uuid 1ff83ba2-93c4-4bae-8591-8e8bfadf2590))
+    (pin "2" (uuid b027f382-61e1-407b-9c79-5b8372e9bbbd))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP36") (unit 1)
         )
@@ -2423,10 +2458,10 @@
     (property "Tolerance" "5%" (at 149.86 71.12 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 883414bb-29e3-406e-ad18-3982f163186d))
-    (pin "2" (uuid b05c38bf-0d01-4e90-864f-0420e0f5db2d))
+    (pin "1" (uuid 28281856-825b-434e-a142-8260861c4791))
+    (pin "2" (uuid f960f6a0-ef70-4de7-b5a7-673f7bbbb757))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C29") (unit 1)
         )
@@ -2452,10 +2487,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 127 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 6892d156-1ed0-4a6a-bf63-a4570b120717))
-    (pin "2" (uuid 032e6ab8-7ebd-452e-98fb-7731d1468ef2))
+    (pin "1" (uuid bd29bafd-386e-4cc6-b9b1-0ebc4f693288))
+    (pin "2" (uuid 4d66ee0a-cc43-4da8-9367-6424c4588d09))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP44") (unit 1)
         )
@@ -2481,10 +2516,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 96.52 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 57b77ab5-caa4-4cc7-a9b9-67bad6ed9275))
-    (pin "2" (uuid f2301ee6-7e6b-4b15-9763-4777cc6493f4))
+    (pin "1" (uuid ab9b2b3f-601f-4330-9173-ff1fde11ee48))
+    (pin "2" (uuid 3b071a70-7b7d-4371-8d72-d94e8db51a9f))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP32") (unit 1)
         )
@@ -2516,10 +2551,10 @@
     (property "Tolerance" "5%" (at 210.82 91.44 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid a947ef36-0958-4ed3-8444-8d5cd764ca36))
-    (pin "2" (uuid e232cbbf-654a-434f-88a9-a0d2ad948e22))
+    (pin "1" (uuid e827a5ea-9381-4cc5-a2f4-8539ebc2f025))
+    (pin "2" (uuid ee01e0ae-5d35-4167-8a2d-4c828471c63e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C49") (unit 1)
         )
@@ -2545,47 +2580,12 @@
     (property "Mouser" "855-M20-999024" (at 220.98 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid eac215ae-7f1c-4ba0-9f6a-42ea4fe267b2))
-    (pin "2" (uuid 22b84d1b-8db9-49b0-a4e0-5b078d366e7e))
+    (pin "1" (uuid 39f2c278-993c-4a31-a006-9093d6ecd791))
+    (pin "2" (uuid d50fe44c-119e-47b9-b13b-32f234bcb081))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP46") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 23e94ba9-dfa9-4ac3-ae45-0a303744634b)
-    (property "Reference" "C59" (at 241.3 93.98 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 99.06 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 96.52 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 96.52 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 96.52 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 91.52 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 101.6 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid 91f9f458-6795-4aae-881a-619f7b7f573f))
-    (pin "2" (uuid 82116e90-ae79-485c-98c4-a60a9b891d32))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C59") (unit 1)
         )
       )
     )
@@ -2609,10 +2609,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 116.84 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid a97baf69-24ff-4d0a-aac7-f81c444438d2))
-    (pin "2" (uuid c95a2865-c75b-4ab1-bd4c-62c891d1cb2a))
+    (pin "1" (uuid c9dfa5f7-f29c-417d-9178-6cb369a65d98))
+    (pin "2" (uuid 9c29c46d-f40b-4f64-a818-0bfa2501ab13))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP34") (unit 1)
         )
@@ -2638,10 +2638,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 66.04 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 6251c6a2-b462-467c-b111-e18d713bbe49))
-    (pin "2" (uuid 7c84e411-7dbd-40f4-80a5-b8d00d36766a))
+    (pin "1" (uuid 951c9b02-bd2c-4a22-b4bd-370a7c355eef))
+    (pin "2" (uuid 9b6e7e48-16c5-43df-b5c9-3339a5eef7c7))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP20") (unit 1)
         )
@@ -2667,10 +2667,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 66.04 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid fcb09762-64a3-4b9f-8516-4a74d973d83f))
-    (pin "2" (uuid fa123edd-0f5b-42b5-8706-289b52b00186))
+    (pin "1" (uuid a4389662-bf32-48a4-b9bc-628f0ee909c3))
+    (pin "2" (uuid c294c0e0-4fa7-4fb0-9bc9-08ec2f71eb4c))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP38") (unit 1)
         )
@@ -2696,10 +2696,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid dc313b53-fbbc-4981-a6de-a0c9139e1677))
-    (pin "2" (uuid a3c0db59-0866-4910-b874-f3113f693da9))
+    (pin "1" (uuid 2a1f0d1b-d347-4ee4-b091-62837c685c70))
+    (pin "2" (uuid bccec351-4fca-4129-9ee5-21c41dcac0f9))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP37") (unit 1)
         )
@@ -2725,10 +2725,10 @@
     (property "Mouser" "855-M20-999024" (at 251.46 137.16 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 2c0783ee-e339-44a2-b75b-aa6ac6edc434))
-    (pin "2" (uuid 8c7433b8-970d-4348-97c5-2d9cd651585a))
+    (pin "1" (uuid 15c5869a-ac8e-487b-80da-3190cae7e7eb))
+    (pin "2" (uuid 3f360a92-a12d-4cfe-ace7-468bef9d3d63))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP63") (unit 1)
         )
@@ -2754,10 +2754,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 96.52 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 5e284232-bd49-4173-a882-330ce24dea6b))
-    (pin "2" (uuid a3266bab-4df6-4aa3-88cc-82323a5260db))
+    (pin "1" (uuid 3dd1c7dd-2aab-4760-8bf4-f2c70299f84a))
+    (pin "2" (uuid 1a03d781-d17a-4e5c-8424-74d11b9b9d5d))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP23") (unit 1)
         )
@@ -2789,10 +2789,10 @@
     (property "Tolerance" "5%" (at 180.34 142.24 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid e99e134d-e7d5-47b7-8156-52116e96ab2f))
-    (pin "2" (uuid 6141654d-7453-4467-90f4-0c79a7fe7353))
+    (pin "1" (uuid d216f912-2e06-4466-a73b-64016571fdcf))
+    (pin "2" (uuid c92e1372-aeda-4da3-ace9-9d9407f5c4f7))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C45") (unit 1)
         )
@@ -2824,47 +2824,12 @@
     (property "Tolerance" "5%" (at 180.34 71.12 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid 2bb10ee5-7d75-4a09-9e6a-29a6a88abec4))
-    (pin "2" (uuid 6d280558-894e-45cf-87d8-dddb3747a0b2))
+    (pin "1" (uuid afa2d53b-6dbf-4004-a91b-ac069a2d169c))
+    (pin "2" (uuid f51b85b1-15c7-4b4b-a5ff-38636f134625))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C38") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 86.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 392ec5ca-72e7-4e18-ac26-0eca696f15ea)
-    (property "Reference" "C58" (at 241.3 83.82 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 88.9 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 86.36 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 86.36 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 86.36 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 81.36 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 91.44 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid cf82cde6-d886-4e94-858e-ac7a6af86d59))
-    (pin "2" (uuid 3247c192-0d20-47d5-b765-e251a96b68dd))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C58") (unit 1)
         )
       )
     )
@@ -2888,10 +2853,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 127 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid f3b569e8-a9ce-4c50-84b7-a2eda278881b))
-    (pin "2" (uuid 29c14108-8354-4f10-b111-110c6f0f77fc))
+    (pin "1" (uuid 10e8485a-ac37-440a-bc92-3e95becc453e))
+    (pin "2" (uuid be338ab4-4c5e-4b1d-b2c0-f656be830882))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP26") (unit 1)
         )
@@ -2899,7 +2864,7 @@
     )
   )
 
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 55.88 90) (unit 1)
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bcaa745-e11a-43c5-8d0b-66a656fd1a99)
     (property "Reference" "C55" (at 241.3 53.34 90)
@@ -2914,19 +2879,19 @@
     (property "Datasheet" "" (at 256.54 55.88 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Mouser" "80-C1206C100J5G" (at 254 55.88 0) (do_not_autoplace)
+    (property "Mouser" "581-12061A100FAT2A" (at 254 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (property "Voltage" "50V" (at 246.38 50.88 0) (do_not_autoplace)
+    (property "Voltage" "100V" (at 246.38 50.88 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (property "Tolerance" "5%" (at 241.3 60.96 0) (do_not_autoplace)
+    (property "Tolerance" "1%" (at 241.3 60.96 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 3aae86b3-b087-4a55-adcc-52d32f46a2be))
-    (pin "2" (uuid 7ee0f538-d19e-4cd2-87ef-b5528646cf6f))
+    (pin "1" (uuid 83ff56b5-a09d-4a7e-affe-0fc99c711d1b))
+    (pin "2" (uuid 00638b87-d477-4951-a722-5e2f5b540518))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C55") (unit 1)
         )
@@ -2952,10 +2917,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 66.04 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid aa28f1bb-85dc-44cf-b2ab-e3131176fd8b))
-    (pin "2" (uuid 10fe5672-444e-4cc4-bff6-3f88f3d663c6))
+    (pin "1" (uuid c953b641-9336-41a4-85b0-38fd92d15e77))
+    (pin "2" (uuid 324116e5-f284-4413-aa4c-1d21a03fc961))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP29") (unit 1)
         )
@@ -2987,10 +2952,10 @@
     (property "Tolerance" "5%" (at 149.86 101.6 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 56304c34-ae7e-463d-9797-31415f6323b6))
-    (pin "2" (uuid 5d87ffbd-192a-40c7-9a1c-155f74cbaf5e))
+    (pin "1" (uuid c8debdcc-6d6d-4c22-bfb4-a931765f6116))
+    (pin "2" (uuid 8de0db17-d7a4-424d-b019-79d7007bbd7c))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C32") (unit 1)
         )
@@ -3016,10 +2981,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 137.16 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid cf9096b3-5a42-47fd-81c6-2985cbdfb69a))
-    (pin "2" (uuid 3b68a488-7318-402c-89dc-2b8c48d5dbfd))
+    (pin "1" (uuid a4664124-9021-48f4-9c8d-cde89a73f23b))
+    (pin "2" (uuid 0b373399-9ca3-40f4-af3c-a4e0fe8fc6e0))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP45") (unit 1)
         )
@@ -3045,10 +3010,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 116.84 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid cb9e848f-21ee-4c28-be36-103767205ba4))
-    (pin "2" (uuid 9277b775-d450-46ba-962d-5a213dffd270))
+    (pin "1" (uuid a3853a0c-1e38-40ab-86a5-0ff89d3b8aad))
+    (pin "2" (uuid ea24c7b0-d551-4da9-96bc-135dce4d1452))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP16") (unit 1)
         )
@@ -3080,10 +3045,10 @@
     (property "Tolerance" "5%" (at 119.38 132.08 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 2fec76c3-01cd-47be-b858-2250a6b2853b))
-    (pin "2" (uuid 2baacfcc-98dd-4ca7-ba15-73e7fadfa36a))
+    (pin "1" (uuid 5c336703-2970-4bea-a688-8f930cd7d573))
+    (pin "2" (uuid 1946a132-3b0c-429f-af7c-b7d6dff3934d))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C26") (unit 1)
         )
@@ -3109,10 +3074,10 @@
     (property "Mouser" "855-M20-999024" (at 251.46 127 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid e056f7c5-3530-4ca9-8fff-de19e710858f))
-    (pin "2" (uuid e117b359-84ce-452b-b538-776d1cc6a49c))
+    (pin "1" (uuid 5c8883d0-c116-4aa0-83bc-48f48c32ccac))
+    (pin "2" (uuid 73734df9-954a-45db-b18a-b0a71ab2335e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP62") (unit 1)
         )
@@ -3138,10 +3103,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 76.2 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 72ff1bd5-2686-4617-8948-b236ae705d13))
-    (pin "2" (uuid 276fad8a-37dd-4b64-9510-3edc5be5f934))
+    (pin "1" (uuid a4142ebd-dd33-4e73-b10f-b5e69146577c))
+    (pin "2" (uuid 78c30d64-9b52-4903-9c35-28e3af29aa4a))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP30") (unit 1)
         )
@@ -3173,10 +3138,10 @@
     (property "Tolerance" "5%" (at 88.9 101.6 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 00947472-efbf-4318-aaa1-ae9c1575d268))
-    (pin "2" (uuid eaa60ae9-853a-4394-b422-e19ffd54249d))
+    (pin "1" (uuid 8caf8372-3c7e-455c-8c36-552be122cd4f))
+    (pin "2" (uuid b2a3ce41-7c84-4aaa-b148-4c73554d3110))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C14") (unit 1)
         )
@@ -3202,10 +3167,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 76.2 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 06486710-4476-4be0-842d-e3cc60092dd8))
-    (pin "2" (uuid 451c79b8-ad55-4d30-9b97-c4043cc60043))
+    (pin "1" (uuid a0e5f060-877d-4df0-9985-74b3396ff640))
+    (pin "2" (uuid a99e673e-cb0f-40e8-8485-04b5b38ca831))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP21") (unit 1)
         )
@@ -3231,10 +3196,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 11881a03-da3c-42fc-9c62-ce496ddbabf1))
-    (pin "2" (uuid 88cc22a9-650d-418c-9260-49feb93235ef))
+    (pin "1" (uuid b370cf29-0824-471b-98e5-efeb31d210eb))
+    (pin "2" (uuid d555e590-a93c-43b4-9a8a-0277dc3747d0))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP28") (unit 1)
         )
@@ -3261,7 +3226,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H1") (unit 1)
         )
@@ -3293,10 +3258,10 @@
     (property "Tolerance" "5%" (at 149.86 132.08 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 8efff400-d8c6-4f95-9c3c-2757fcbf7e32))
-    (pin "2" (uuid f0f2e059-8f8d-4851-a9c9-4921afd2ba77))
+    (pin "1" (uuid 3fa7a58e-8664-450d-9618-77c8b24f3667))
+    (pin "2" (uuid 66bedf63-6e5a-457b-b6af-49cd5b055b6d))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C35") (unit 1)
         )
@@ -3328,10 +3293,10 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 76.2 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 72834dde-97fe-4518-aaa2-f45e997c5b1a))
-    (pin "2" (uuid e67794e2-8dfe-4aaf-b065-2d320ec57b93))
+    (pin "1" (uuid c5e8706f-7de7-4447-8cbb-08376a2ed379))
+    (pin "2" (uuid 1c344534-5031-45d3-90d5-e14bfdb03a2b))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C3") (unit 1)
         )
@@ -3363,12 +3328,47 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 106.68 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid abe52372-6bed-40ac-971d-cfef9adf6418))
-    (pin "2" (uuid dea160bd-b78a-4a73-a9b1-81416146d117))
+    (pin "1" (uuid 311c71dc-5da1-40c9-8f45-a67d0aafbd51))
+    (pin "2" (uuid 7df5e294-5fa5-4518-9f3b-c7fdfc7b5586))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 66.04 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 55b89633-f927-4e56-a0e3-8ac2b52b7a9b)
+    (property "Reference" "C56" (at 241.3 63.5 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 68.58 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 66.04 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 66.04 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 66.04 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 61.04 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 71.12 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid 8696334c-9c2f-4f15-82ed-bf4af8e103ee))
+    (pin "2" (uuid 3fdb5b3e-8d1c-444d-b043-63167e6703bf))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -3393,44 +3393,9 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP65") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5a63ef37-cfdc-47b9-b889-785179363828)
-    (property "Reference" "C60" (at 241.3 104.14 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 109.22 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 106.68 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 106.68 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 106.68 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 101.68 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 111.76 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid a28bb532-5576-49b9-b10f-0dfe92401125))
-    (pin "2" (uuid 89c7be91-08f8-43d6-8438-c2b286c0c2fc))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C60") (unit 1)
         )
       )
     )
@@ -3454,10 +3419,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 116.84 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 4986fde9-ee34-48d0-b716-d4e17be70983))
-    (pin "2" (uuid 28cd8b2b-ba61-4b1a-9f83-ad6adaaa8758))
+    (pin "1" (uuid 3e79796e-9bcd-4708-8c8a-bf685f88e464))
+    (pin "2" (uuid d65d047d-c055-415a-9928-c0edd9664e5e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP52") (unit 1)
         )
@@ -3484,7 +3449,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP64") (unit 1)
         )
@@ -3516,12 +3481,47 @@
     (property "Tolerance" "5%" (at 180.34 111.76 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid 0b6f8180-7f32-4fd8-9bc7-39111f672376))
-    (pin "2" (uuid 5a20c61d-83f1-474f-8dbc-934d315f5a30))
+    (pin "1" (uuid 588817fa-82f7-4bce-beed-6ae3dfbb4af3))
+    (pin "2" (uuid 55357dca-aef3-4d85-b641-6a03053bd7ab))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C42") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 86.36 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 60dba8f3-dcc1-44d8-bb92-de01802254a6)
+    (property "Reference" "C58" (at 241.3 83.82 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 88.9 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 86.36 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 86.36 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 86.36 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 81.36 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 91.44 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid 0d325ecb-e1ba-4e54-9c49-53d039b32702))
+    (pin "2" (uuid 50ebbb47-4184-4ea6-b33d-1cbc8926ae15))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -3551,10 +3551,10 @@
     (property "Tolerance" "5%" (at 180.34 91.44 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid d05cf6d2-cf53-48bc-a1f5-5178440402cf))
-    (pin "2" (uuid 7489ba94-248b-4e9f-90e5-1facdc384280))
+    (pin "1" (uuid dd082ded-ffb5-4112-b027-c9833ce6032d))
+    (pin "2" (uuid f17ed40c-5332-412c-8b68-0ed724e7ea6a))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C40") (unit 1)
         )
@@ -3586,10 +3586,10 @@
     (property "Tolerance" "5%" (at 180.34 132.08 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid ea522db4-ab18-4890-b5f6-889888d1ba62))
-    (pin "2" (uuid a362be3c-5cb9-4d69-a767-4e394e01b43b))
+    (pin "1" (uuid 73d6679e-98b2-46d2-a53d-92ce9993756f))
+    (pin "2" (uuid 5b6dc6f9-a2e4-4558-9126-fea1fa88b238))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C44") (unit 1)
         )
@@ -3615,10 +3615,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 96.52 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 1d1e7ee2-1922-465d-98c4-15a1f9ccba01))
-    (pin "2" (uuid 04bde752-345c-4b5c-bc64-5b8f73f7288a))
+    (pin "1" (uuid 54fa42f8-9d5b-4bea-ba8a-6a3b137bf773))
+    (pin "2" (uuid dc853b84-bfd0-444e-b256-bdf2c9c8a41e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP5") (unit 1)
         )
@@ -3644,10 +3644,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 76.2 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid fb4bcfb9-87f4-422a-a474-c9874362c4d6))
-    (pin "2" (uuid 1cba8acc-af1f-4df5-b405-b5eeea5c2326))
+    (pin "1" (uuid 80ba5363-afa7-413a-84d3-03d2df6d2b9e))
+    (pin "2" (uuid ac62eb47-b012-4074-8248-645fae1736c7))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP39") (unit 1)
         )
@@ -3673,10 +3673,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 66.04 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 53b312ec-4b7f-4daa-a15c-58bd94b1029e))
-    (pin "2" (uuid 1407ef5e-84a8-4c28-baf6-fc8beeafc1a3))
+    (pin "1" (uuid 7864d106-ffd0-412f-a653-32d6f730e0f9))
+    (pin "2" (uuid c2218282-1cef-4cf0-b9e3-3f0c548e631c))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP2") (unit 1)
         )
@@ -3708,10 +3708,10 @@
     (property "Tolerance" "5%" (at 88.9 111.76 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 6fb274b7-bf19-4176-bd86-2280f9162741))
-    (pin "2" (uuid 7ae14f37-9583-4240-8833-4fc223d0f811))
+    (pin "1" (uuid dd071c80-a01c-4781-bfa9-112fbe21c16f))
+    (pin "2" (uuid 9d024a46-eb11-4e46-92a3-8ff002fae18a))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C15") (unit 1)
         )
@@ -3737,10 +3737,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 86.36 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 2a3430d9-ff7d-4b0e-946e-8b6efc50c14c))
-    (pin "2" (uuid ef1301a3-2019-4938-b7b3-681e298ca6bc))
+    (pin "1" (uuid ec1806f9-bd16-4f06-bded-dabf3d56ec90))
+    (pin "2" (uuid db98e8a9-00ad-4e69-bcb2-2061f4afce26))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP4") (unit 1)
         )
@@ -3772,10 +3772,10 @@
     (property "Tolerance" "5%" (at 88.9 142.24 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 000e8ba2-efd5-43f5-94d2-c7ea7bce8f77))
-    (pin "2" (uuid 95fa3066-03b1-40b1-bfdc-37afe2853d74))
+    (pin "1" (uuid 178e4f20-5f54-4bd1-b794-010c6417da17))
+    (pin "2" (uuid c08cc685-37d2-4663-b097-352f1b6f40fe))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C18") (unit 1)
         )
@@ -3802,7 +3802,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP70") (unit 1)
         )
@@ -3834,10 +3834,10 @@
     (property "Tolerance" "5%" (at 119.38 121.92 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 538bde06-209b-4544-a222-8f5f4d374fa1))
-    (pin "2" (uuid 6b151497-50ef-4cd5-8733-43bfdba072ce))
+    (pin "1" (uuid 4609e3a0-6295-49a8-bd04-c314e4a25409))
+    (pin "2" (uuid cda1bf21-9666-4edd-9ee7-ea5fb1ebe267))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C25") (unit 1)
         )
@@ -3869,10 +3869,10 @@
     (property "Tolerance" "5%" (at 149.86 81.28 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 62bd7888-fc18-410b-a0e6-39e79954c0e6))
-    (pin "2" (uuid 5844058b-f606-4778-835e-c5a60b7dc335))
+    (pin "1" (uuid 0c6192fc-6de3-4dbe-8e2a-274357fbddfa))
+    (pin "2" (uuid 040d6a59-fa4f-45d1-beed-becbc5c98f8d))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C30") (unit 1)
         )
@@ -3904,10 +3904,10 @@
     (property "Tolerance" "5%" (at 210.82 60.96 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 814d34ad-b5ab-4dce-9ef1-c0d5ff12d17c))
-    (pin "2" (uuid 820facc6-dd9f-4dd7-a7ae-d2f05904032e))
+    (pin "1" (uuid ccc98f4b-5b59-4f6f-bf6f-cc2a9614d5b3))
+    (pin "2" (uuid 775b189f-0dee-4e52-851c-25a3872b3c3e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C46") (unit 1)
         )
@@ -3933,12 +3933,47 @@
     (property "Mouser" "855-M20-999024" (at 129.54 137.16 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 62a856af-3941-4a9d-b891-cb577b5e1ca0))
-    (pin "2" (uuid fc22d851-0560-42be-8e59-f3aa5c7477b8))
+    (pin "1" (uuid bed9c1a3-7985-4776-8c76-79c62dd7b9b0))
+    (pin "2" (uuid b9e628b2-144e-48c3-b776-ba3b09a6c41e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 127 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 77f2372d-25ad-4681-b02c-5f7bf9681f69)
+    (property "Reference" "C62" (at 241.3 124.46 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 129.54 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 127 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 127 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 127 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 122 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 132.08 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid de68070f-ccaa-475a-ac4d-804e5899325b))
+    (pin "2" (uuid 251b0d0a-1db0-41c2-a259-83ec79a8526e))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C62") (unit 1)
         )
       )
     )
@@ -3962,10 +3997,10 @@
     (property "Mouser" "855-M20-999024" (at 251.46 96.52 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 0b8d2320-5110-428f-ab46-0f33f06451bb))
-    (pin "2" (uuid 9e9b7298-7c73-45c6-98e3-36a606ead4c5))
+    (pin "1" (uuid 05cd6dc8-b101-4e5d-a79e-50d96f71d1ea))
+    (pin "2" (uuid a0237117-9dac-4010-b09e-80a4ca309693))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP59") (unit 1)
         )
@@ -3991,10 +4026,10 @@
     (property "Mouser" "855-M20-999024" (at 254 60.96 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 913e55fa-5fa0-47c9-8d2e-d033be8ee162))
-    (pin "2" (uuid d4e73b4a-704f-422b-8c04-255644f71065))
+    (pin "1" (uuid 8916effe-96ed-4895-812b-db6cdb9044bb))
+    (pin "2" (uuid e0a74207-e45c-4d31-9d62-28543202c42e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "K1") (unit 1)
         )
@@ -4026,10 +4061,10 @@
     (property "Tolerance" "5%" (at 119.38 142.24 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid ac05300a-dd7f-4722-a14f-faa339baa47f))
-    (pin "2" (uuid 82b1ed1f-0963-4f1f-9cb8-d1a25dddb577))
+    (pin "1" (uuid 4cd93081-eb87-440e-9f3b-0217388159b5))
+    (pin "2" (uuid a2606d18-6654-4564-ad6d-8287201b795a))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C27") (unit 1)
         )
@@ -4055,10 +4090,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 96.52 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid a39ced0e-16c8-434b-8afa-7a028a8f1799))
-    (pin "2" (uuid 6ee6fb3b-2a6f-4c6c-9be2-3d59624030e5))
+    (pin "1" (uuid 9c6dee71-f23f-4437-a2f7-74e44924e7b2))
+    (pin "2" (uuid 612bde30-1c0c-4991-94c2-0c1f9aac3993))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP14") (unit 1)
         )
@@ -4084,10 +4119,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 66.04 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 942c1a50-86ea-4395-9fa2-ace1445e5c90))
-    (pin "2" (uuid cc16ec17-e2c7-4e98-b780-b7a5e7919ba8))
+    (pin "1" (uuid 940afd82-fb69-43b4-93d3-7ea653c62015))
+    (pin "2" (uuid 891d48ad-b78b-470b-b36d-6425db0c6c98))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP11") (unit 1)
         )
@@ -4113,10 +4148,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 106.68 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 35485221-e8ec-431f-a574-afccdbe2f7c7))
-    (pin "2" (uuid 909cab8f-abe0-4802-84a1-7318d01eafbf))
+    (pin "1" (uuid fa9b2cbb-ac3d-46ca-87d6-cf03234e6c5b))
+    (pin "2" (uuid 59ec9801-d680-4140-9bbb-07df1ce88924))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP42") (unit 1)
         )
@@ -4142,10 +4177,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 137.16 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid dc78f21e-55b1-49cc-ae13-2fae59039de3))
-    (pin "2" (uuid 083e8e99-92a5-44e6-9f3c-799004cabe17))
+    (pin "1" (uuid 30377794-36c2-4137-a543-e9b6e2397ac7))
+    (pin "2" (uuid 728cce78-4ba0-460d-a8ad-5f0b30c5ca79))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP54") (unit 1)
         )
@@ -4177,10 +4212,10 @@
     (property "Tolerance" "5%" (at 119.38 81.28 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 7d6ec7f8-6e55-44a1-a5bf-49eab2eec418))
-    (pin "2" (uuid 7b6ae851-8369-40d1-91ee-c606779cedb3))
+    (pin "1" (uuid 5598e688-84eb-44e5-b244-c8ac32831bbf))
+    (pin "2" (uuid c307e32b-d012-49d4-8532-0180a5e1e602))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C21") (unit 1)
         )
@@ -4206,10 +4241,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 127 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 52a3fa17-29dc-489e-9bf0-10049a964052))
-    (pin "2" (uuid 100bc20f-3eda-4ce7-a3a1-eca907416ebc))
+    (pin "1" (uuid 90b782e9-1f50-462b-a90b-4e68127ca60d))
+    (pin "2" (uuid e967bc07-25b4-49f6-8a8d-8f7eb413263d))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP35") (unit 1)
         )
@@ -4241,10 +4276,10 @@
     (property "Tolerance" "5%" (at 180.34 81.28 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid 7d0fa8f0-9fef-46b4-a966-135ac728c94e))
-    (pin "2" (uuid c4b5bc04-6bfb-4f79-a48c-5a3564b7eb7c))
+    (pin "1" (uuid 5bb96042-5a7c-403d-86de-5aaae95ee9dd))
+    (pin "2" (uuid 7d1429f6-2217-4491-b865-1a96c7eea9c6))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C39") (unit 1)
         )
@@ -4270,10 +4305,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 96841807-0dce-4fd3-94a9-68860b2acac3))
-    (pin "2" (uuid a1d6d67a-53ba-4724-92c5-d69ca81b2434))
+    (pin "1" (uuid 6f06c1a7-f3bc-4ad7-9243-b6ab2e72600a))
+    (pin "2" (uuid d5e3622a-5f7c-41d8-aaaf-e7755f7eb87a))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP1") (unit 1)
         )
@@ -4305,10 +4340,10 @@
     (property "Tolerance" "5%" (at 88.9 121.92 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 962ab1c6-b2e5-4ac3-84b5-c1989676b4f3))
-    (pin "2" (uuid a8966d63-fc49-444c-898a-e6a6a5eae66b))
+    (pin "1" (uuid 6b742c8b-a8ca-4f05-ad5c-5d40a1a979bc))
+    (pin "2" (uuid f6279d6f-3e6f-4de2-b713-8e9b808323f3))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C16") (unit 1)
         )
@@ -4335,7 +4370,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H4") (unit 1)
         )
@@ -4361,10 +4396,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 106.68 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 6f0c0b9e-ae38-42e9-9e9b-3eeccc643e4f))
-    (pin "2" (uuid 5d23ab19-5a38-461c-a218-8e74713881f2))
+    (pin "1" (uuid df606168-0feb-4eba-8239-26f2e62dd77b))
+    (pin "2" (uuid 45b8e350-23c0-4b33-bc7b-0834386a7dba))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP24") (unit 1)
         )
@@ -4390,10 +4425,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 86.36 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 1255bec2-7332-4e1f-9eae-4f708a6715fe))
-    (pin "2" (uuid 0ba8953e-f149-4716-82b9-f1dabbe30443))
+    (pin "1" (uuid a3f13a11-6fdf-42ab-b4d4-cbc4897b012c))
+    (pin "2" (uuid 293bed0f-ee22-46f7-9e4e-6717f8548755))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP49") (unit 1)
         )
@@ -4420,7 +4455,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H3") (unit 1)
         )
@@ -4446,10 +4481,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 137.16 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 2208175e-80b7-4ee3-a9f0-900dc5aec666))
-    (pin "2" (uuid 42ef3196-dca4-4128-97d5-9b0bd1465264))
+    (pin "1" (uuid 81576ac5-385b-4e62-843d-b49dc5c98aff))
+    (pin "2" (uuid ac761374-0f31-45b5-925c-962285a73cc8))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP9") (unit 1)
         )
@@ -4481,10 +4516,10 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 137.16 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 1e7ce422-1c57-4a7e-b0cb-bc1b1459ae38))
-    (pin "2" (uuid 76fe801a-f7a2-44ad-8eb2-6f5cd5f15de4))
+    (pin "1" (uuid e7646e9f-5419-47b0-b2ad-0aad4b5f50b8))
+    (pin "2" (uuid fdc1f2a1-3fc2-4d20-8720-3fef6906dc13))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C9") (unit 1)
         )
@@ -4511,7 +4546,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP66") (unit 1)
         )
@@ -4543,10 +4578,10 @@
     (property "Tolerance" "5%" (at 88.9 71.12 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 47738c8d-5bb9-4121-939c-8f0073dbc409))
-    (pin "2" (uuid a85fc125-6b11-4101-9037-b3be82ea763a))
+    (pin "1" (uuid 20b896e5-40f8-4f42-b57c-2cd76917ed36))
+    (pin "2" (uuid 01cbdf8d-8ef8-492d-9e10-668dc7fb9e1d))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C11") (unit 1)
         )
@@ -4572,10 +4607,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid f13f1c8d-d08a-45d7-8f66-f1406a8dba1a))
-    (pin "2" (uuid 870c32ca-3f53-49e6-a894-5bd7c769aed3))
+    (pin "1" (uuid 12877b86-60c6-4e5a-ba32-6b6ed8dd1b4b))
+    (pin "2" (uuid f24c0b56-0b6f-4841-876c-e77e145d9b10))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP19") (unit 1)
         )
@@ -4607,10 +4642,10 @@
     (property "Tolerance" "5%" (at 180.34 121.92 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid a04e781d-fd1f-448c-b7de-651f8009b09e))
-    (pin "2" (uuid 3099de7a-9ded-439d-94b9-ac2348dff9e2))
+    (pin "1" (uuid 5c61d1fa-a740-4d89-b191-f39dc0559568))
+    (pin "2" (uuid 15982d36-2988-4d40-a60b-8b613360254e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C43") (unit 1)
         )
@@ -4642,10 +4677,10 @@
     (property "Tolerance" "5%" (at 210.82 101.6 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid d74342dd-868e-4b2e-a124-1fc7dd9ee725))
-    (pin "2" (uuid 23763a34-d7bd-40d8-9d5f-1496e26cde42))
+    (pin "1" (uuid 8997d3dc-a60b-4d7a-906e-d60c7535797e))
+    (pin "2" (uuid 163fea36-431f-4c22-93a4-8e42d118339f))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C50") (unit 1)
         )
@@ -4671,10 +4706,10 @@
     (property "Mouser" "855-M20-999024" (at 251.46 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid c5949abf-d4b9-4631-b87d-27adc85fd7e4))
-    (pin "2" (uuid 60fca76b-a62c-49ec-8a80-6b1ca8df85db))
+    (pin "1" (uuid 04835c49-0157-4dd1-acf1-fc47c8992085))
+    (pin "2" (uuid fde75a26-ed29-418d-9598-9bb3029814c5))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP55") (unit 1)
         )
@@ -4706,10 +4741,10 @@
     (property "Tolerance" "5%" (at 119.38 101.6 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 0cab2a60-9f11-4e2b-97d4-bba6399ef470))
-    (pin "2" (uuid 9794e234-fbce-4993-bf24-98c62ad0d4e6))
+    (pin "1" (uuid d4a2d527-3e53-427f-8090-ba4ee94c0254))
+    (pin "2" (uuid 07537851-7586-4c44-a9ad-d4f55f7898a4))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C23") (unit 1)
         )
@@ -4735,10 +4770,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 86.36 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 178a41c9-9856-44fe-b990-ac23aa096409))
-    (pin "2" (uuid 40da076d-c29f-4308-b8b6-b17254015518))
+    (pin "1" (uuid 03f35f48-de36-4319-805e-49390d688639))
+    (pin "2" (uuid e3ed9571-5046-435f-852c-23380a41e5eb))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP13") (unit 1)
         )
@@ -4764,10 +4799,10 @@
     (property "Mouser" "855-M20-999024" (at 160.02 106.68 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 71eea4f2-e344-4291-a35e-9cb0f968f161))
-    (pin "2" (uuid 27c815f8-509f-4a1d-a506-abf0223015f8))
+    (pin "1" (uuid 69e6d7f4-fa34-4411-ad71-5a980b80a80a))
+    (pin "2" (uuid 6b8148dd-e403-49c1-b7a4-6b528915cd0b))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP33") (unit 1)
         )
@@ -4799,10 +4834,10 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 86.36 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 1cdf9c40-21a3-4c39-8ab2-d11a3039fb84))
-    (pin "2" (uuid 6c4f795c-a8e9-42b3-af7e-e05394f2e6d0))
+    (pin "1" (uuid 9d48777b-8f3a-4b60-89da-1d78587021c1))
+    (pin "2" (uuid 94a9118b-6cc7-41bf-a471-a9d691a593cf))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C4") (unit 1)
         )
@@ -4828,10 +4863,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 106.68 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid f79f9d6a-ee61-45a8-81f5-cac47ca8f6cf))
-    (pin "2" (uuid 39511911-683c-48dc-9f08-068d0dad6f2c))
+    (pin "1" (uuid 845ca3cd-8335-452e-86c3-139f15559718))
+    (pin "2" (uuid 757c2474-9fa1-44ae-aded-4aa528a5da7f))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP6") (unit 1)
         )
@@ -4863,10 +4898,10 @@
     (property "Tolerance" "5%" (at 149.86 91.44 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 3d817df9-93de-4503-b5ce-eecc10432a28))
-    (pin "2" (uuid 166ed33b-44e2-4c7f-9dc6-3d73709b9067))
+    (pin "1" (uuid f581b2ac-aafb-4d99-9606-634b68f2fa47))
+    (pin "2" (uuid 82f7c9dc-5f68-4d50-9071-8f6916736557))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C31") (unit 1)
         )
@@ -4898,10 +4933,10 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 96.52 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 0ac4eb6d-8fe5-4c29-a83c-13efda9fe703))
-    (pin "2" (uuid e18324c4-5081-4972-a0ad-c40976e3ff54))
+    (pin "1" (uuid 346ca818-85a9-461c-bee6-c8d939c79760))
+    (pin "2" (uuid 937860b1-ce1c-4580-bab3-bd3ad0fdf1ee))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C5") (unit 1)
         )
@@ -4933,12 +4968,47 @@
     (property "Tolerance" "5%" (at 180.34 60.96 90) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) hide)
     )
-    (pin "1" (uuid e9e5d729-3205-4f6c-9275-e61a017b8333))
-    (pin "2" (uuid 5f945db5-e4db-4b49-8850-dec54fc5446a))
+    (pin "1" (uuid 095c0fcf-da75-4fc1-ae94-dc1d795f2cd2))
+    (pin "2" (uuid d26fb0a6-6ebe-4cac-8559-1aedb06aa903))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C37") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 106.68 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a4db5ec5-68ac-43ca-a51a-06f7e2d35f72)
+    (property "Reference" "C60" (at 241.3 104.14 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 109.22 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 106.68 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 106.68 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 106.68 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 101.68 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 111.76 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid 6b9046c5-ed7a-4034-8160-1ae01426ac1a))
+    (pin "2" (uuid fadf7b28-ba98-47df-ad0b-bc0376e971ad))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C60") (unit 1)
         )
       )
     )
@@ -4968,10 +5038,10 @@
     (property "Tolerance" "5%" (at 149.86 111.76 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 757b5ea8-a5f8-4f08-aeff-76728aebca17))
-    (pin "2" (uuid fc46ad25-d35f-4b59-8265-850262cc1ddb))
+    (pin "1" (uuid 415b8db8-c0d9-46aa-81f5-af60fbb71c43))
+    (pin "2" (uuid 4c4b48d7-5d31-4728-8955-b1246ee4a336))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C33") (unit 1)
         )
@@ -4997,47 +5067,12 @@
     (property "Mouser" "855-M20-999024" (at 190.5 116.84 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 44c7e757-bf12-4141-bbc7-d714ddd2ab9b))
-    (pin "2" (uuid 4b734264-8284-42c2-b175-be3121634288))
+    (pin "1" (uuid ef2bd3de-e126-42cf-a079-67ddd5fe27e0))
+    (pin "2" (uuid 000883da-288c-4dd1-a4ce-ebd2326ffd7f))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP43") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 116.84 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid af895ec9-7de4-465c-81d6-241350318c1c)
-    (property "Reference" "C61" (at 241.3 114.3 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 119.38 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 116.84 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 116.84 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 116.84 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 111.84 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 121.92 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid 59f2a11e-5406-477a-a834-b94aa9de5191))
-    (pin "2" (uuid 78cc5b7b-a40c-49d0-8229-0165e7954a62))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C61") (unit 1)
         )
       )
     )
@@ -5061,10 +5096,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 106.68 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 906df7a4-7416-4595-804d-0f70b7d1e34d))
-    (pin "2" (uuid af6e2beb-251c-4709-8229-1d3b43380157))
+    (pin "1" (uuid 18ced9bf-f27a-4b82-8c4c-3eca8d74787a))
+    (pin "2" (uuid 56ba2662-9a5a-4109-be25-da5c96e59332))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP15") (unit 1)
         )
@@ -5096,12 +5131,47 @@
     (property "Tolerance" "5%" (at 210.82 142.24 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid c10a8d77-0a1b-4e89-9552-0ffdf574c953))
-    (pin "2" (uuid ab98b83d-98b7-4bc3-93bb-001de9d38c74))
+    (pin "1" (uuid 1b5c031b-b4ce-47a8-9759-b86a0a01f7c0))
+    (pin "2" (uuid 5e65ef28-41db-4e6e-a843-3a3d6073307a))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C54") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 116.84 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b2aff483-fdbe-4b1a-bfb4-a17f12375244)
+    (property "Reference" "C61" (at 241.3 114.3 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 119.38 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 116.84 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 116.84 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 116.84 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 111.84 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 121.92 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid 3d0526e0-b00a-4c52-814d-b88f609f67c7))
+    (pin "2" (uuid dc552db8-cfad-4be8-a9e8-f49ce0c34295))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -5126,7 +5196,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP71") (unit 1)
         )
@@ -5153,7 +5223,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP72") (unit 1)
         )
@@ -5185,10 +5255,10 @@
     (property "Tolerance" "5%" (at 149.86 142.24 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid bff4a57f-88a1-48f1-8353-a29d534b6aaf))
-    (pin "2" (uuid bb4c6975-e8aa-474f-8906-8bf1f51bbb23))
+    (pin "1" (uuid 912fa31d-0d76-4f9b-b933-82f8662fa3f8))
+    (pin "2" (uuid 67526c99-a393-4b98-b2e1-e9250deb1c00))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C36") (unit 1)
         )
@@ -5214,12 +5284,47 @@
     (property "Mouser" "855-M20-999024" (at 68.58 76.2 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 5d6990bd-8b15-4f19-8705-947cf239a7f8))
-    (pin "2" (uuid 4784d159-274b-442f-95f2-9f88f7561ce7))
+    (pin "1" (uuid 713c1bae-aa17-41a9-985b-0eb894eb657b))
+    (pin "2" (uuid d99cebec-5790-4e8f-bb06-4c372c395ce2))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-100V-1P-COG") (at 241.3 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b7f84de6-6a3b-495a-afe9-f4d0fff1cd6f)
+    (property "Reference" "C59" (at 241.3 93.98 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Value" "10p" (at 241.3 99.06 90)
+      (effects (font (size 1.15 1.15)))
+    )
+    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 96.52 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (at 256.54 96.52 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Mouser" "581-12061A100FAT2A" (at 254 96.52 0) (do_not_autoplace)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Voltage" "100V" (at 246.38 91.52 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (property "Tolerance" "1%" (at 241.3 101.6 0) (do_not_autoplace)
+      (effects (font (size 1.15 1.15)) (justify left) hide)
+    )
+    (pin "1" (uuid 36c3d110-92de-485e-a830-32b006ed921f))
+    (pin "2" (uuid 6c1f3d32-aca6-4148-b85c-0eeae4e96390))
+    (instances
+      (project "main"
+        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -5243,10 +5348,10 @@
     (property "Mouser" "855-M20-999024" (at 251.46 76.2 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 60689e1a-60c8-4159-b837-4041f135d783))
-    (pin "2" (uuid 97626ca9-47c2-4821-b3d0-dc081b4b5c6c))
+    (pin "1" (uuid 3ad8fa0f-40f0-40a4-b619-c07da1e08073))
+    (pin "2" (uuid 1b1ca92e-5f6a-49ea-9dd2-6525641ba71c))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP57") (unit 1)
         )
@@ -5272,10 +5377,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 55.88 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 4b19441e-2294-44d2-af19-c5b4af4582f4))
-    (pin "2" (uuid 4fe9eff4-10a9-4466-b388-e6c92ba9a291))
+    (pin "1" (uuid dd4bd905-79bb-45b6-8f2a-cba83c2c6046))
+    (pin "2" (uuid 3673bd7e-70f9-4bde-8590-43172e396179))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP10") (unit 1)
         )
@@ -5301,10 +5406,10 @@
     (property "Mouser" "855-M20-999024" (at 251.46 86.36 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 73a07c7f-3cc6-4b96-a17d-0557f4f0c78e))
-    (pin "2" (uuid ca2444c0-ae74-4d40-88be-2579aac4a800))
+    (pin "1" (uuid 32310086-7169-450f-90ed-c6c411e827e7))
+    (pin "2" (uuid 3c27f7f8-d2ca-43d2-99b3-f446de055942))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP58") (unit 1)
         )
@@ -5336,10 +5441,10 @@
     (property "Tolerance" "5%" (at 149.86 121.92 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 4924e056-7dd4-4b71-98f5-daa462f35eac))
-    (pin "2" (uuid f9d5d0fc-9c1b-4c6a-ab87-d4df31319a32))
+    (pin "1" (uuid 74170a81-3a27-4ebe-9d23-7349c90117ee))
+    (pin "2" (uuid a555b577-bead-43eb-b54b-0eaf034ef497))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C34") (unit 1)
         )
@@ -5366,7 +5471,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "H2") (unit 1)
         )
@@ -5392,10 +5497,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 66.04 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 78f4381f-4666-4845-800a-94e600acc8db))
-    (pin "2" (uuid 34ec7d6a-de1a-4209-9790-739ecc4b58c8))
+    (pin "1" (uuid 1c4e68c5-3b93-48c0-bc26-8d814412fb02))
+    (pin "2" (uuid 810e7cba-57ab-4d44-9d62-7dcca5abd33e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP47") (unit 1)
         )
@@ -5421,10 +5526,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 127 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid da2de3d0-25b5-48a0-aeef-f7a9b293f037))
-    (pin "2" (uuid 9a261a64-8544-4c22-873b-6169d571c065))
+    (pin "1" (uuid 0ea4e477-b87e-46a3-8398-640b7a2bae2c))
+    (pin "2" (uuid 6271ce42-04e5-4151-b60d-c94e64b7600b))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP53") (unit 1)
         )
@@ -5456,10 +5561,10 @@
     (property "Tolerance" "5%" (at 149.86 60.96 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid d5e782cb-6b63-4299-a638-62f51584cc5c))
-    (pin "2" (uuid 1ea3242d-9b65-428f-bcea-2f6ce012bf1c))
+    (pin "1" (uuid 0438f405-b0ad-4e33-ae16-d2c059698309))
+    (pin "2" (uuid 3555b293-9fda-4f3f-9b31-5c8bb93e1552))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C28") (unit 1)
         )
@@ -5491,10 +5596,10 @@
     (property "Tolerance" "5%" (at 119.38 60.96 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid e3b4c335-dcb0-4b97-9e30-bc000ac33ff3))
-    (pin "2" (uuid 768c9386-afef-412c-a600-ffc550495601))
+    (pin "1" (uuid 67a4fca7-9f5c-4f98-9e76-c6fad7e7ade3))
+    (pin "2" (uuid 419797ff-d7ae-40bd-bf2e-3ab18a9aa931))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C19") (unit 1)
         )
@@ -5521,7 +5626,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP69") (unit 1)
         )
@@ -5547,10 +5652,10 @@
     (property "Mouser" "855-M20-999024" (at 251.46 106.68 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid eac5cd3a-0c7c-4130-9dde-f295ddce0df6))
-    (pin "2" (uuid c948ba57-5092-422d-a51c-61deeeb13df2))
+    (pin "1" (uuid 423e16ee-072f-4fb1-a93d-6c3bc66efd2d))
+    (pin "2" (uuid 9a39d6cb-9924-4125-bc19-5f090c730bda))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP60") (unit 1)
         )
@@ -5576,10 +5681,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 137.16 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 373cd39e-5d59-4d3f-936f-21885ae02543))
-    (pin "2" (uuid 3b615699-6658-4949-baa7-d3d42d674165))
+    (pin "1" (uuid 90167dd8-4782-4567-b6db-48cdb7ffee08))
+    (pin "2" (uuid 5935884d-442d-4f1a-9bea-b0cdc7fda7b4))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP18") (unit 1)
         )
@@ -5606,7 +5711,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP73") (unit 1)
         )
@@ -5638,10 +5743,10 @@
     (property "Tolerance" "5%" (at 119.38 71.12 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid a37c20a2-9c17-4cdc-8eef-f3dad8e9a4df))
-    (pin "2" (uuid e7f7cb93-0b40-44f1-b477-14a1f3d80d79))
+    (pin "1" (uuid cd5fd508-26f4-4d1f-8806-629c56008860))
+    (pin "2" (uuid 5087e950-f08a-4b70-8844-e4079e706413))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C20") (unit 1)
         )
@@ -5673,10 +5778,10 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 116.84 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 454b9eee-d21b-4b16-b4ae-f1e11970acf9))
-    (pin "2" (uuid e540c507-02c7-46e9-afd8-f11c76cb5a9b))
+    (pin "1" (uuid 8f3d4753-ab72-4231-b204-e6388867a9d3))
+    (pin "2" (uuid d667bbc2-eb89-42f2-9024-b9b7ee251d3f))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C7") (unit 1)
         )
@@ -5708,10 +5813,10 @@
     (property "Tolerance" "5%" (at 210.82 132.08 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 322f7cfd-49a7-407b-8300-6f7ff48a5481))
-    (pin "2" (uuid 846ad16e-a775-493a-8543-09b0e706caa4))
+    (pin "1" (uuid f4781359-baeb-40a9-9e2a-34530fdc99f5))
+    (pin "2" (uuid 911bdd0d-4cd1-4cb8-b39f-2a9e884e3b02))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C53") (unit 1)
         )
@@ -5737,10 +5842,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 127 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid c2296b4a-f530-4f6c-acce-d938291ca420))
-    (pin "2" (uuid 1f3860cb-0a3d-40a2-996f-7b6a8185262f))
+    (pin "1" (uuid 62b6e4eb-7ed2-424a-9598-96803559219d))
+    (pin "2" (uuid 963b734e-94c8-4bf8-9d77-d4ae354b910e))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP17") (unit 1)
         )
@@ -5766,47 +5871,12 @@
     (property "Mouser" "855-M20-999024" (at 251.46 116.84 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid d59ffc23-0e2b-47d1-b349-88aec83d2425))
-    (pin "2" (uuid c47a735b-5c08-4765-8202-ed10ed136ab0))
+    (pin "1" (uuid b012649d-511e-45e4-a66c-30e106ccdfa8))
+    (pin "2" (uuid 912f8a00-4d09-45b5-9ebf-dc8818155170))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP61") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 76.2 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d8c1008f-b1a1-437d-ac15-ed02386a4678)
-    (property "Reference" "C57" (at 241.3 73.66 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 78.74 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 76.2 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 76.2 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 76.2 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 71.2 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 81.28 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid 4fc3fb5d-5105-4a34-b1fc-b8a24c97f59f))
-    (pin "2" (uuid 5d0348cf-1aab-4cb8-a6fb-dd5e192cffd4))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C57") (unit 1)
         )
       )
     )
@@ -5836,47 +5906,12 @@
     (property "Tolerance" "5%" (at 119.38 91.44 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 08e99c2d-40d9-4733-ac98-13f6b4c943a0))
-    (pin "2" (uuid e7c0e8ca-3e8c-4ed9-aeae-78c5ae47f24c))
+    (pin "1" (uuid 3bd0089d-ad2c-43b4-9e9f-45724ac62939))
+    (pin "2" (uuid 8c30436d-72c8-438b-bf6b-b75bb6623df7))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 66.04 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d90eb7b9-2630-4e4e-ad2c-e6e0387a9ae6)
-    (property "Reference" "C56" (at 241.3 63.5 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 68.58 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 66.04 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 66.04 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 66.04 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 61.04 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 71.12 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid c3a82a66-e52e-44d9-ba5b-8eac3ac59b97))
-    (pin "2" (uuid 7d0b26f8-ab39-4f4c-9d29-8ade3c1f524a))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C56") (unit 1)
         )
       )
     )
@@ -5906,10 +5941,10 @@
     (property "Tolerance" "5%" (at 210.82 71.12 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 27ae3cb4-e4f5-4089-8020-e53f1fb208e6))
-    (pin "2" (uuid 66e0394d-0c2d-43e1-ae0d-51b4d0e04463))
+    (pin "1" (uuid a507cde3-7259-4ca5-ad08-c1282575ff30))
+    (pin "2" (uuid 15489165-a017-44a2-b5b6-2f2eac09f9a7))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C47") (unit 1)
         )
@@ -5935,10 +5970,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 127 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid f52acb7a-4a44-424a-acec-86b32796016f))
-    (pin "2" (uuid 4f100f2b-cca0-4a72-884f-e085c3fd3e08))
+    (pin "1" (uuid 040c4859-7771-4e76-b782-5d0dcfce090b))
+    (pin "2" (uuid 07a226ac-a1f3-4c16-86b1-7435f161b1da))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP8") (unit 1)
         )
@@ -5964,10 +5999,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 76.2 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid c7a2d5aa-57ca-4f72-bd52-ef57a1419915))
-    (pin "2" (uuid 262336f2-ef98-4cf7-b985-2d317bb7d2fe))
+    (pin "1" (uuid a7faf038-7159-4954-bfb1-e57383f2ea44))
+    (pin "2" (uuid 2ffa0228-bb59-4155-bae3-53cc2a436298))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP48") (unit 1)
         )
@@ -5994,7 +6029,7 @@
       (effects (font (size 1 1)) hide)
     )
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP68") (unit 1)
         )
@@ -6026,10 +6061,10 @@
     (property "Tolerance" "5%" (at 88.9 132.08 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 634d1e90-066b-45b8-bad6-85cbc521a6ba))
-    (pin "2" (uuid 45ac226d-d2d1-4cc8-ac52-bd40a7dba605))
+    (pin "1" (uuid cd83b7ea-b640-4a49-8e7e-5956b419612b))
+    (pin "2" (uuid 8c100781-1b72-4144-88d4-4fca4dcff366))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C17") (unit 1)
         )
@@ -6061,10 +6096,10 @@
     (property "Tolerance" "5%" (at 210.82 121.92 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 47634d2b-eafc-487a-af08-badd6305950e))
-    (pin "2" (uuid 3e6d3f1b-931e-43a7-9f52-7d0759e9f9d2))
+    (pin "1" (uuid e79b2b9e-3e86-4c3a-ba1f-3b1c728035e1))
+    (pin "2" (uuid 6a114aa4-b268-459f-8fef-9bf403a0eb37))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C52") (unit 1)
         )
@@ -6096,10 +6131,10 @@
     (property "Tolerance" "5%" (at 88.9 81.28 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid 7392922e-f697-42f2-a403-59da29ee5185))
-    (pin "2" (uuid 05ac6d8e-015a-4d70-8bbb-3f77d255444f))
+    (pin "1" (uuid 77907f6e-bc69-43a0-89ad-47e826df4649))
+    (pin "2" (uuid 7d1e369b-3afa-4cba-b3c2-994afa16fdb0))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C12") (unit 1)
         )
@@ -6125,10 +6160,10 @@
     (property "Mouser" "855-M20-999024" (at 68.58 116.84 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 3da6c2e1-5ea5-46ca-a1bc-16858ffe18bc))
-    (pin "2" (uuid 6ccd15bb-4cd0-473a-a8a9-9a96f4a5dd7e))
+    (pin "1" (uuid c1aaee3f-2f07-419d-965d-7c60fab05b79))
+    (pin "2" (uuid 9fb4aa89-a5c4-4908-a00c-9ac2ae1c7bab))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP7") (unit 1)
         )
@@ -6154,47 +6189,12 @@
     (property "Mouser" "855-M20-999024" (at 251.46 66.04 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid d108ca14-7df0-4ad1-8646-68e37f23c149))
-    (pin "2" (uuid 54f17c4a-b2f4-419c-bf7d-ff52ec5cc5e9))
+    (pin "1" (uuid f116ff80-4a81-4be6-a5d6-3247c18dbabb))
+    (pin "2" (uuid 734954d0-ceac-486d-bcba-4e434ad286af))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP56") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "tronixio:CAPACITOR-1206-10P-50V-5P-COG") (at 241.3 127 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid eb425839-4af0-4f3d-9d74-9399a5fea954)
-    (property "Reference" "C62" (at 241.3 124.46 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Value" "10p" (at 241.3 129.54 90)
-      (effects (font (size 1.15 1.15)))
-    )
-    (property "Footprint" "tronixio:CAPACITOR-SMD-1206" (at 251.46 127 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 127 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Mouser" "80-C1206C100J5G" (at 254 127 0) (do_not_autoplace)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Voltage" "50V" (at 246.38 122 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 241.3 132.08 0) (do_not_autoplace)
-      (effects (font (size 1.15 1.15)) (justify left) hide)
-    )
-    (pin "1" (uuid 539a0b02-6d1d-46ca-b531-a303931fa756))
-    (pin "2" (uuid 7e7a8cb5-047d-4085-9150-542bc40af408))
-    (instances
-      (project "capacitors"
-        (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-          (reference "C62") (unit 1)
         )
       )
     )
@@ -6218,10 +6218,10 @@
     (property "Mouser" "855-M20-999024" (at 99.06 76.2 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid a7b96bba-260f-4859-8f02-004c2afc133b))
-    (pin "2" (uuid 897f4922-1d82-429c-8353-f7ad54047523))
+    (pin "1" (uuid 7f678457-e96b-4d87-aebd-ba1507544e62))
+    (pin "2" (uuid b0f8aeda-c37e-46fa-8c9d-28b9f456e804))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP12") (unit 1)
         )
@@ -6247,10 +6247,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 116.84 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 2fa09455-8fe8-4040-b8cd-83cc43a0db67))
-    (pin "2" (uuid 5235c81c-e9c1-4d7a-8899-3ae8c137cf36))
+    (pin "1" (uuid 96ea012d-f9bd-41ac-bf89-bdc0f3a5a5ec))
+    (pin "2" (uuid 7d776924-393e-4bbd-a485-e15e4337e790))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP25") (unit 1)
         )
@@ -6276,10 +6276,10 @@
     (property "Mouser" "855-M20-999024" (at 129.54 86.36 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 013591e6-bea7-4607-b965-cba1be0894e6))
-    (pin "2" (uuid 3fdd806e-352d-4bfc-96e0-7cebcb70d68b))
+    (pin "1" (uuid c2766d65-0e01-4ab4-9997-fdb75ac94cef))
+    (pin "2" (uuid ca384cc3-5ba8-4dcb-bf79-b82672dacc79))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP22") (unit 1)
         )
@@ -6305,10 +6305,10 @@
     (property "Mouser" "855-M20-999024" (at 190.5 96.52 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid a26b0e6a-f3d5-4edc-9983-64d22ac8dd6f))
-    (pin "2" (uuid 985135d0-50e8-448d-bb51-c338bf25a49f))
+    (pin "1" (uuid c83fdd84-e482-423f-8c92-518a73df438d))
+    (pin "2" (uuid a3296d02-2c2d-4b0c-bd4f-36ae277b4212))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP41") (unit 1)
         )
@@ -6340,10 +6340,10 @@
     (property "Tolerance" "5%" (at 88.9 60.96 0) (do_not_autoplace)
       (effects (font (size 1.15 1.15)) (justify left) hide)
     )
-    (pin "1" (uuid c777cbe6-e8aa-456e-a10e-ecb5912492f4))
-    (pin "2" (uuid ccbcbc5e-7312-4883-b9f9-70c55be1baaf))
+    (pin "1" (uuid e8364597-c918-4d69-b2af-0053a7b33e8e))
+    (pin "2" (uuid 534f3469-c2be-41ca-8281-372f588cb7d5))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C10") (unit 1)
         )
@@ -6375,10 +6375,10 @@
     (property "Mouser" "80-C1206C106J3R" (at 71.12 66.04 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid e0eed587-9814-4e97-a503-79e4a75c0937))
-    (pin "2" (uuid e167ee97-d860-4415-9abc-ece759f1048a))
+    (pin "1" (uuid 75b8912e-cfc1-4407-a9bc-48ba88b04665))
+    (pin "2" (uuid f5cb1d4e-9320-4244-9911-bd743fbd9d65))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "C2") (unit 1)
         )
@@ -6404,10 +6404,10 @@
     (property "Mouser" "855-M20-999024" (at 220.98 96.52 0) (do_not_autoplace)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid b53541fc-29b5-4f7e-8e33-d9ae1f58c5a1))
-    (pin "2" (uuid 9e3481d4-6ed0-4dba-8041-3bb5f3a28be7))
+    (pin "1" (uuid 3f64f096-9946-44f4-83ad-ab56a78fe053))
+    (pin "2" (uuid 30e16912-8b08-4aa5-97e6-a65287c17590))
     (instances
-      (project "capacitors"
+      (project "main"
         (path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
           (reference "JP50") (unit 1)
         )
