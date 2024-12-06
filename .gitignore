@@ -5,12 +5,5 @@ Docs/
 Kicad/*/*.kicad_prl
 Kicad/*/*.kicad_sch-bak
 Kicad/*/gerber/
-Kicad/*/main-backups/
+Kicad/*/*-backups/
 Kicad/*/fp-info-cache
-
-# MplabX.
-MplabX/*/build/
-MplabX/*/debug/
-MplabX/*/dist/
-MplabX/*/nbproject/
-MplabX/*/Makefile
