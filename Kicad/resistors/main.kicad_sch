@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5f96646c-bdf6-47e2-a01d-8588cc95727b")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "tronixio:HARWIN-254-M-1X02-JUMPER-VERTICAL"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -58,10 +62,11 @@
 				)
 			)
 			(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
-				(at 0 0 0)
+				(at 0 -20.32 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -77,17 +82,6 @@
 				)
 			)
 			(symbol "HARWIN-254-M-1X02-JUMPER-VERTICAL_0_1"
-				(circle
-					(center 0 -1.27)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 1.905) (xy 0.635 2.54) (xy -1.27 2.54) (xy -1.27 -2.54)
@@ -102,6 +96,17 @@
 				)
 				(circle
 					(center 0 1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.27)
 					(radius 0.635)
 					(stroke
 						(width 0.2)
@@ -150,11 +155,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:HARWIN-254-M-1X02-VERTICAL"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -216,17 +226,6 @@
 				)
 			)
 			(symbol "HARWIN-254-M-1X02-VERTICAL_0_1"
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 -3.81) (xy 1.27 -3.81) (xy 1.27 0.635) (xy 0.635 1.27) (xy -1.27 1.27) (xy -1.27 -3.81)
@@ -241,6 +240,17 @@
 				)
 				(circle
 					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.2)
@@ -289,11 +299,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:HARWIN-JUMPER-0254-14MM-BLACK"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -369,6 +384,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 1.524)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.016 -1.016) (xy -1.016 1.016)
@@ -381,23 +407,17 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.524)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:KEYSTONE-9056"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -473,6 +493,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 1.524)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.016 -1.016) (xy -1.016 1.016)
@@ -485,28 +516,22 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.524)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:RESISTOR-1206-100K-1P"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 3.81 0)
+				(at 0.635 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -526,7 +551,6 @@
 			)
 			(property "Footprint" "tronixio:RESISTOR-SMD-1206"
 				(at 0 -12.7 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -544,16 +568,17 @@
 				)
 			)
 			(property "Description" "Resistor"
-				(at 0 0 0)
+				(at 0 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
 			)
 			(property "Tolerance" "1%"
-				(at 0 -3.81 0)
+				(at 0.635 -3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -564,7 +589,6 @@
 			)
 			(property "Mouser" "603-RT1206FRE07100KL"
 				(at 0 -15.24 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -623,16 +647,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:RESISTOR-1206-100R-1P"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 3.81 0)
+				(at 0.635 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -670,16 +699,17 @@
 				)
 			)
 			(property "Description" "Resistor"
-				(at 0 0 0)
+				(at 0 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
 			)
 			(property "Tolerance" "1%"
-				(at 0 -3.81 0)
+				(at 0.635 -3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -749,16 +779,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:RESISTOR-1206-10K-1P"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 3.81 0)
+				(at 0.635 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -796,16 +831,17 @@
 				)
 			)
 			(property "Description" "Resistor"
-				(at 0 0 0)
+				(at 0 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
 			)
 			(property "Tolerance" "1%"
-				(at 0 -3.81 0)
+				(at 0.635 -3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -875,16 +911,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:RESISTOR-1206-10R-1P"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 3.81 0)
+				(at 0.635 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -922,16 +963,17 @@
 				)
 			)
 			(property "Description" "Resistor"
-				(at 0 0 0)
+				(at 0 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
 			)
 			(property "Tolerance" "1%"
-				(at 0 -3.81 0)
+				(at 0.635 -3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1001,16 +1043,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:RESISTOR-1206-1K-1P"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 3.81 0)
+				(at 0.635 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1019,7 +1066,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1k00"
+			(property "Value" "1k0"
 				(at 0 0 90)
 				(do_not_autoplace)
 				(effects
@@ -1058,7 +1105,7 @@
 				)
 			)
 			(property "Tolerance" "1%"
-				(at 0 -3.81 0)
+				(at 0.635 -3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1128,16 +1175,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:RESISTOR-1206-1M-1P"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 3.81 0)
+				(at 0.635 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1185,7 +1237,7 @@
 				)
 			)
 			(property "Tolerance" "1%"
-				(at 0 -3.81 0)
+				(at 0.635 -3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1255,16 +1307,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:RESISTOR-1206-1R-1P"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 3.81 0)
+				(at 0.635 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1273,7 +1330,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1Ω00"
+			(property "Value" "1Ω0"
 				(at 0 0 90)
 				(do_not_autoplace)
 				(effects
@@ -1312,7 +1369,7 @@
 				)
 			)
 			(property "Tolerance" "1%"
-				(at 0 -3.81 0)
+				(at 0.635 -3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1382,7 +1439,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "- For schematic clarity headers are 1x02, for PCB use 2x10 headers (HARWIN: M20-9981045)."
+		(exclude_from_sim no)
+		(at 22.86 193.04 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "28bd8a84-6e6a-4089-9142-55b54d7613c3")
 	)
 	(junction
 		(at 63.5 83.82)
@@ -6029,17 +6098,6 @@
 			(type default)
 		)
 		(uuid "ff7b73de-99d6-4f5d-8f0b-c703cfea8dd9")
-	)
-	(text "- For schematic clarity headers are 1x02, for PCB use 2x10 headers (HARWIN: M20-9981045)."
-		(exclude_from_sim no)
-		(at 22.86 193.04 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "28bd8a84-6e6a-4089-9142-55b54d7613c3")
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-1206-1M-1P")
@@ -17730,4 +17788,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

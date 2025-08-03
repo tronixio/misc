@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5f96646c-bdf6-47e2-a01d-8588cc95727b")
 	(paper "A4")
 	(title_block
@@ -11,9 +11,13 @@
 	)
 	(lib_symbols
 		(symbol "tronixio:CAPACITOR-1206-100N-50V-5P-X7R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -39,7 +43,6 @@
 			)
 			(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
 				(at 0 -10.16 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -57,7 +60,7 @@
 				)
 			)
 			(property "Description" "Unpolarized Capacitor"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -89,7 +92,6 @@
 			)
 			(property "Mouser" "80-C1206C104J5R"
 				(at 0 -12.7 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -99,8 +101,8 @@
 			)
 			(symbol "CAPACITOR-1206-100N-50V-5P-X7R_0_1"
 				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -1.016)
+					(start -1.524 1.016)
+					(end 1.524 0.254)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -110,8 +112,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.254)
+					(start -1.524 -0.254)
+					(end 1.524 -1.016)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -159,11 +161,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:CAPACITOR-1206-100P-50V-1P-COG"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -207,7 +214,7 @@
 				)
 			)
 			(property "Description" "Unpolarized Capacitor"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -248,8 +255,8 @@
 			)
 			(symbol "CAPACITOR-1206-100P-50V-1P-COG_0_1"
 				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -1.016)
+					(start -1.524 1.016)
+					(end 1.524 0.254)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -259,8 +266,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.254)
+					(start -1.524 -0.254)
+					(end 1.524 -1.016)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -308,11 +315,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:CAPACITOR-1206-10N-50V-1P-COG"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -356,7 +368,7 @@
 				)
 			)
 			(property "Description" "Unpolarized Capacitor"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -397,8 +409,8 @@
 			)
 			(symbol "CAPACITOR-1206-10N-50V-1P-COG_0_1"
 				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -1.016)
+					(start -1.524 1.016)
+					(end 1.524 0.254)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -408,8 +420,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.254)
+					(start -1.524 -0.254)
+					(end 1.524 -1.016)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -457,11 +469,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:CAPACITOR-1206-10P-100V-1P-COG"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -506,10 +523,9 @@
 			)
 			(property "Description" "Unpolarized Capacitor"
 				(at 0 -15.24 0)
-				(do_not_autoplace)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -547,8 +563,8 @@
 			)
 			(symbol "CAPACITOR-1206-10P-100V-1P-COG_0_1"
 				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -1.016)
+					(start -1.524 1.016)
+					(end 1.524 0.254)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -558,8 +574,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.254)
+					(start -1.524 -0.254)
+					(end 1.524 -1.016)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -607,11 +623,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:CAPACITOR-1206-10U-25V-5P-X7R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -655,7 +676,7 @@
 				)
 			)
 			(property "Description" "Unpolarized Capacitor"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -697,8 +718,8 @@
 			)
 			(symbol "CAPACITOR-1206-10U-25V-5P-X7R_0_1"
 				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -1.016)
+					(start -1.524 1.016)
+					(end 1.524 0.254)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -708,8 +729,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.254)
+					(start -1.524 -0.254)
+					(end 1.524 -1.016)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -757,11 +778,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:CAPACITOR-1206-1N-50V-1P-COG"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -806,10 +832,9 @@
 			)
 			(property "Description" "Unpolarized Capacitor"
 				(at 0 -15.24 0)
-				(do_not_autoplace)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -847,8 +872,8 @@
 			)
 			(symbol "CAPACITOR-1206-1N-50V-1P-COG_0_1"
 				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -1.016)
+					(start -1.524 1.016)
+					(end 1.524 0.254)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -858,8 +883,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.254)
+					(start -1.524 -0.254)
+					(end 1.524 -1.016)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -907,11 +932,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:CAPACITOR-1206-1U-50V-5P-X7R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -937,7 +967,6 @@
 			)
 			(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
 				(at 0 -10.16 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -955,7 +984,7 @@
 				)
 			)
 			(property "Description" "Unpolarized Capacitor"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -987,7 +1016,6 @@
 			)
 			(property "Mouser" "80-C1206C105J5"
 				(at 0 -12.7 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -997,8 +1025,8 @@
 			)
 			(symbol "CAPACITOR-1206-1U-50V-5P-X7R_0_1"
 				(rectangle
-					(start -1.524 -0.254)
-					(end 1.524 -1.016)
+					(start -1.524 1.016)
+					(end 1.524 0.254)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -1008,8 +1036,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.254)
+					(start -1.524 -0.254)
+					(end 1.524 -1.016)
 					(stroke
 						(width 0.001)
 						(type default)
@@ -1057,11 +1085,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:HARWIN-254-M-1X02-JUMPER-VERTICAL"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1106,10 +1139,11 @@
 				)
 			)
 			(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
-				(at 0 0 0)
+				(at 0 -20.32 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -1125,17 +1159,6 @@
 				)
 			)
 			(symbol "HARWIN-254-M-1X02-JUMPER-VERTICAL_0_1"
-				(circle
-					(center 0 -1.27)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 1.905) (xy 0.635 2.54) (xy -1.27 2.54) (xy -1.27 -2.54)
@@ -1150,6 +1173,17 @@
 				)
 				(circle
 					(center 0 1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.27)
 					(radius 0.635)
 					(stroke
 						(width 0.2)
@@ -1198,11 +1232,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:HARWIN-254-M-1X02-VERTICAL"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1264,17 +1303,6 @@
 				)
 			)
 			(symbol "HARWIN-254-M-1X02-VERTICAL_0_1"
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 -3.81) (xy 1.27 -3.81) (xy 1.27 0.635) (xy 0.635 1.27) (xy -1.27 1.27) (xy -1.27 -3.81)
@@ -1289,6 +1317,17 @@
 				)
 				(circle
 					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.2)
@@ -1337,11 +1376,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:HARWIN-JUMPER-0254-14MM-BLACK"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1417,6 +1461,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 1.524)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.016 -1.016) (xy -1.016 1.016)
@@ -1429,23 +1484,17 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.524)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "tronixio:KEYSTONE-9056"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1521,6 +1570,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 0)
+					(radius 1.524)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.016 -1.016) (xy -1.016 1.016)
@@ -1533,19 +1593,20 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 1.524)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "- 10µ are 25V, others 50V.\n- 10p to 10n COG Dielectric, others X7R Dielectric.\n- For schematic clarity headers are 1x02, for PCB use 2x09 headers (HARWIN: M20-9980945)."
+		(exclude_from_sim no)
+		(at 22.86 193.04 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f96648a7-1971-473e-b289-e26fd1e04f1c")
 	)
 	(junction
 		(at 246.38 76.2)
@@ -4960,17 +5021,6 @@
 			(type default)
 		)
 		(uuid "ffe3f315-551a-4f19-9877-1880d3cc99a0")
-	)
-	(text "- 10µ are 25V, others 50V.\n- 10p to 10n COG Dielectric, others X7R Dielectric.\n- For schematic clarity headers are 1x02, for PCB use 2x09 headers (HARWIN: M20-9980945)."
-		(exclude_from_sim no)
-		(at 22.86 193.04 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "f96648a7-1971-473e-b289-e26fd1e04f1c")
 	)
 	(symbol
 		(lib_id "tronixio:HARWIN-254-M-1X02-JUMPER-VERTICAL")
@@ -17348,4 +17398,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
